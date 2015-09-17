@@ -1,2 +1,2 @@
 # LEN
-Ladijske Elektronske Naprave
+Repozitorij za predmet Ladijske Elektronske Naprave - LEN.
