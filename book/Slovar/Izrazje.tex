@@ -1,0 +1,518 @@
+% !TeX spellcheck = de_DE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Dictionary
+% LaTeX Template
+% Version 1.0 (20/12/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Vel (vel@latextemplates.com) inspired by a template by Marc Lavaud
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,twoside]{article} % 10pt font size, A4 paper and two-sided margins
+
+\usepackage[top=3.5cm,bottom=3.5cm,left=3.7cm,right=4.7cm,columnsep=30pt]{geometry} % Document margins and spacings
+\usepackage[slovene]{babel}
+%\catcode`\"=13
+
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+
+\usepackage{palatino} % Use the Palatino font
+
+\usepackage{microtype} % Improves spacing
+
+\usepackage{multicol} % Required for splitting text into multiple columns
+
+\usepackage[bf,sf,center]{titlesec} % Required for modifying section titles - bold, sans-serif, centered
+
+\usepackage{fancyhdr} % Required for modifying headers and footers
+\fancyhead[L]{\textsf{\rightmark}} % Top left header
+\fancyhead[R]{\textsf{\leftmark}} % Top right header
+\renewcommand{\headrulewidth}{1.4pt} % Rule under the header
+\fancyfoot[C]{\textbf{\textsf{\thepage}}} % Bottom center footer
+\renewcommand{\footrulewidth}{1.4pt} % Rule under the footer
+\pagestyle{fancy} % Use the custom headers and footers throughout the document
+
+\newcommand{\entry}[4]{\markboth{#1}{#1}\textbf{#1}\ {(#2)}\ \textit{#3}\ $\bullet$\ {#4}}  % Defines the command to print each word on the page, \markboth{}{} prints the first word on the page in the top left header and the last word in the top right
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	POGLAVJE A
+%----------------------------------------------------------------------------------------
+
+\section*{A}
+
+\begin{multicols}{2}
+
+\entry{A1A}{oznaka prekinjanega nosilnega signala}{angl. Continious Wave telegraphy keying the transmitted signal}{oddajanje Morsejevih znakov samo z nosilnim signalom}
+
+\entry{A2A}{oznaka nosilnega signala z dvema bočnima pasovoma}{angl. Telegraphy by the on-off keying of a tone modulated carrier}{oddajanje Morsejevih znakov z obema bočnima pasovoma}
+
+\entry{A3E}{oznaka telefonije z amplitudno modulacijo}{angl. Telephony using amplitude modulation}{telefonija z obema bočnima pasovoma}
+
+\entry{A9W}{oznaka sestavljenega oddajnega signala}{angl. composite emission: double sideband e.g. a combination of telegraphy and telephony}{npr. kombinacija telegrafije in telefonije}
+
+\entry{absolute accuracy}{geodetska ali geografska točnost}{angl. The accuracy of a position with respect to the geographic or geodetic coordinates of the earth (IMO).}{točnost določitve položaja glede na geodetske koordinate na Zemlji (IMO)}
+
+\entry{accuracy}{točnost}{angl. The degree of conformance between the estimated or measured parameter of a craft at a given time and its true parameter at that time (IMO).}{stopnja usklajenosti med ocenjenim in izmerjenim parametrom plovila v določenem času, ki ponazarja resnično vrednost parametra v tem času (IMO).}
+
+\entry{$a_e$}{polmer Zemlje}{angl. Earth’s equatorial radius}{ekvatorialni polmer, tipično $6,378 x 10^6$ m}
+
+\entry{AGC}{način delovanja radia}{angl. Automatic gain control}{samodejno nastavljanje ojačenja oz. dobitka}
+
+\entry{AIS}{sistem obveščanja o istovetnosti ladij}{angl. Automatic Identification System (for shipping - IMO)}{za izmenjavo podatkov ladja-ladja in ladja-obala dinamičnih (vključno poločaj, SOG, COG, hdg, ROT), statičnih (vključno z MMSI, callsign, ime, velikost, vrsta) in potovalnih (vključno draft, cargo, dest, ETA, route plan) podatkih. Uporablja dve VHF frekvenci - 161,97 in 162,025 MHz ter SOTDMA kanali; eno-sekundni okviri so sestavljeni iz 2.250 rež, vsaka vsebuje 256 bitov. Možnost sprejemanja ~ 4.000 poročil/min.}
+
+\entry{ALRS}{seznam}{angl. Admiralty List of Radio Signals}{seznam radijskih signalov v pomorski službi}
+
+\entry{AM}{način modulacije}{angl. Amplitude Modulation}{amplitudna modulacija}
+
+(of Inmarsat III satellites)
+ in early 05.
+
+\entry{AOR-E}{območje satelita INMARSAT III}{angl. Atlantic Ocean Region (East)}{vzhodni del Atlantskega oceana, AOR-E na 15,5 $^{\circ}$W}
+
+\entry{AOR-W}{območje satelita INMARSAT III}{angl. Atlantic Ocean Region (West)}{zahodni del Atlantskega oceana, AOR-W na 98 $^{\circ}$W}
+
+\entry{approx}{..}{angl. approximate}{približno}
+
+\entry{ARQ}{način dela v TK}{angl. Automatic Repetition reQuest}{samodejna zahteva za ponovitev (oddajanja), način dela teleprinterja (telex) med dvema stalnima postajama}
+
+\entry{ASCII}{način kodiranja}{angl. American Standard Code for Information Interchange)}{ameriški standarizirani nabor za izmenjavo informacij, 7-bitni osnovni nabor znakov, ki obsega $2^{7} = 128$ znakov; glej \textit{kilobit}}
+
+\entry{ARCC}{posebno središče za SAR}{angl. Associated Rescue Co-ordination Centre)}{središče, ki ga imenuje posebna agencija za SAR, na katerega INMARSAT-ove obalne zemeljske postaje (CES) usmerjajo klice v stiski}
+
+\entry{Autolink RT}{način TK zvez}{angl. automatic communication equipment)}{vsako plovilo, ki ima opremo Autolink RT, lahko vzpostavlja radiotelefonske zveze na ali na VHF ali MF ali HF pasovih, z zemeljskimi radijskimi postajami, ki ravno tako uporabljajo storitev Autolink RT}
+
+\entry{Automatic DSC}{način dela DSC}{angl. special mode of DSC)}{poseben način dela prenašanja digitaliziranih sporočil (DSC), v katerem se uporabljajo samodejno uglasljivi oddajniki, ki brez posredovanja operaterja potrjujejo sprejem (\textit{angl. acknowledgment}) prejetih DSC sporočil na prednastavljenih delovnih frekvencah}
+
+\entry{availability}{razpoložljivost}{angl. the percentage of time that an aid, or system of aids, is performing a required function under stated conditions (IMO).)}{delež časa (v \%), v katerem naprava ali sistem naprav opravlja zahtevano nalogo v predpisanih pogojih (IMO).}
+
+\end{multicols}
+
+%----------------------------------------------------------------------------------------
+%	SECTION B
+%----------------------------------------------------------------------------------------
+
+\section*{B}
+
+\begin{multicols}{2}
+
+\entry{B9W}{oznaka sestavljenega signala iz analognega in digitalnega dela}{angl. composite emission: independent sidebands with one or more channels containing quantized or digitized information together with one or more channels containing analogue information}{med seboj neodvisni bočni pasovi npr. kombinacija telegrafije in telefonije}
+
+\entry{baud}{b:d, enota za hitrost prenosa podatkov}{angl. a measure for the rate of transfer of binary message (1 bit/s = 1 baud)}{en baud znaša 1 bit na sekundo}
+
+\entry{Beacon identification data}{informacija o istovetnosti klicatelja v stiski}{angl. digitally coded information inside distress beacon and corresponds to the identity of the vessel in distress}{plovilo klicatelja v stiski svojo istovetnost posreduje samodejno}
+
+\entry{bit}{enota za količino podatkov}{angl. a measure for the binary data quantity (\textit{see kilobit})}{količina binarnih podatkov}
+
+\entry{Bn}{radijska postaja}{angl. beacon}{ponavadi oddajna postaja}
+
+\entry{bps}{hitrost prenosa podatkov}{angl. bits per second}{en 1 bit na sekundo}
+
+\entry{brg}{kurz}{angl. bearing}{smer plovbe oz. kot med severom in izbrano smerjo}
+
+\entry{Broadcasting-satellite service}{javna satelitska storitev}{angl. a radiocommunication service in which signals transmitted or retransmitted by space stations are intended for direct reception by the general public}{javna radiokomunikacijska storitev v kateri so signali oddani ali prenešeni uporabnikom preko postaj v vesolju}
+
+\entry{Broadcasting service}{javna radijska storitev}{angl. a radiocommunication service in which transmissions are intended for direct reception by the general public}{javna radiokomunikacijska storitev v kateri so signali namenjeni vsem uporabnikom}
+
+\entry{byte}{količina podatkov}{angl. collection of bits that makes up a binary word}{skupek bitov, ki tvori binarno besedo, vsaj 8 bitov}
+
+\end{multicols}
+
+%----------------------------------------------------------------------------------------
+%	SECTION C
+%----------------------------------------------------------------------------------------
+
+\section*{C}
+
+\begin{multicols}{2}
+		
+\entry{$^{\circ}$C}{zapis temperature}{angl. degrees Celsius}{zapis stopinj, ki imajo enoto $1/100$ intervala med temperaturo ledišča in vrelišča vode in ničlo pri ledišču vode}
+
+\entry{CBM}{označevanje boj}{angl. Conventional Buoy Marking}{mednarodni dogovor}
+		
+\entry{CG}{obalna straža}{angl. Coast Guard}{služba za delo v priobalnem morju posamezne države}
+
+\entry{Ch}{kanal}{angl. Channel}{frekvenčni pas za izbran namen uporabe}
+
+\entry{CNIS}{služba za pomoč pri navigaciji v Kanalu}{angl. The Channel Navigation Information Service helps vessels navigate safely and prevents collisions in the Dover Strait}{služba, ki neprestano oskrbuje z radijskimi in radarskimi informacijami, pomembnimi za navigacijo in preprečevanje trčenj v Rokavskem prelivu}		
+		
+\entry{Co-ordinator surface search}{pooblaščena ladja za iskanje na morju}{angl. a vessel, other than rescue unit, designated to co-ordinate surface search and rescue operations within a specific search area}{ladja je pooblaščena za koordiniranje iskanja in reševanja, ni pa namenjena samemu reševanju}		
+
+\entry{CES}{vrsta radijske postaje}{angl. Coast Earth Station, also Land Earth Station}{nepremična radijska postaja na kopnem, namenjena za storitve fiksnih satelitskih komunikacij ali včasih tudi nomadskih pomorskih satelitskih komunikacij, zagotavlja radijske zveze pomorskim nomadskim satelitskim storitvam.}
+
+\entry{CIRM}{mednarodni odbor}{fr. Comité International Radio-Maritime}{odbor za radijske zveze v pomorstvu}
+
+\entry{Class A or B}{vrsta naprav AIS}{angl. Class of AIS installation}{vrsta naprav AIS: A za velike ladje, B za plovila za kratkočasne dejavnosti}
+
+\entry{CMG}{kurz med odčitki GNSS}{angl. course made good}{smer po loksodromi med dvema navigacijskima rešitvama položaja satelitskega navigacijskega sprejemnika}
+
+\entry{COG}{kurz med odčitki GNSS}{angl. course over ground, Direction of (the ship’s) movement relative to the Earth, measured on
+	board (the ship).}{smer gibanja ladje glede na zemeljski koordinatni sistem, izmerjena na ladji}
+
+\entry{Coast radio station}{kopenska radijska postaja}{angl. a land station in the maritime mobile service}{kopenska postaja, ki omogoča pomorske nomadske komunikacije}
+
+\entry{Coded information}{način prenašanja informacij}{angl. information which is digitally coded within equipmnet by the user to provide information related to distress}{preden se informacija operaterja, povezana s klicem v stiski, prenese naprej, se v radijski postaji digitalno kodira}
+
+\entry{COLREGS}{mednarodni sporazum}{angl. COnvention on internationaL REGulations for preventing collisions at Sea, 1972}{sporazum s pravili kako preprečevati trčenja na morju}
+
+\entry{COSPAS}{satelitski sistem za posredovanje v stiski}{angl. space system for search and distress vessels}{sistem za iskanje plovil in obveščanje v stiski}
+
+\entry{COSPAS-SARSAT system}{satelitski sistem za posredovanje podatkov v stiski}{angl. a satellite-based search and rescue (SAR) distress alert detection and information distribution system, best known for detecting and locating emergency beacons activated by aircraft, ships and backcountry hikers in distress.}{v vozilu, plovilu ali pohodniku v nevarnosti se samodejno aktivira naprava, ki prek satelita obvesti center za posredovanje podatkov iskalcem ponesrečencev}
+
+\entry{CROSS (MRCC)}{regionalno središče za spremljanje in reševanje}{fr. Centres Regionaux de Surveillance et de Sauvetage, angl. Regional centre of operations for surveillance and rescue}
+		
+\entry{CRS}{vrsta ardijske postaje}{angl. Coast Radio station}{obalna radijska postaja}		
+		
+\end{multicols}
+
+%----------------------------------------------------------------------------------------
+%	SECTION Č
+%----------------------------------------------------------------------------------------
+
+\section*{Č}
+
+\begin{multicols}{2}
+	
+	\entry{Čajka}{vrsta hiperboličnega sistema}{angl. Chayka}{prvi LORAN-C sistem, ki so ga uvedli v Sovjetski zvezi}	
+
+	\entry{čip}{binarni element, digit}{angl. chip}{košček zaporedja v navigacijskih sporočilih, ki sam ne prenaša informacije}	
+	
+	%	\entry{..}{}{angl.}{..}	 
+	
+	%	\entry{..}{}{angl.}{..}
+	
+\end{multicols}	
+
+%----------------------------------------------------------------------------------------
+%	SECTION D
+%----------------------------------------------------------------------------------------
+
+\section*{D}
+
+\begin{multicols}{2}
+	
+\entry{dB}{decibel, mera za delež sprejete ali oddane moči}{angl. decibel}{desetkratnik logaritma količnika dveh moči. Če je v količniku pod ulomkovo črto 1 mW, potem se namesto dB uporablja dBm.}
+	
+\entry{dBW}{decibel vat, normirana decibel, mera za delež moči}{angl. decibel watt}{desetkratnik logaritma količnika neke moči in moči 1 W.}
+
+\entry{DF}{iskanje smeri}{angl. direction finding}
+
+\entry{$D_G$}{razdalja med dvema točkama}{angl. distance between two points on a great circle (orthodromic distance)}{ortodromska razdalja, najkrajša pot med dvema točkama po površini krogle (ne štejemo poti, ki poteka skozi notranjost krogle)}
+
+\entry{DGPS}{diferencialni ameriški satelitski navigacijski sistem}{angl. differential GPS}{način določanja položaja, hitrosti in časa s pomočjo satelitske navigacije in dodatne stalne postaje na Zemlji}
+
+\entry{DGNSS}{diferencialni svetovni satelitski navigacijski sistem}{angl. differential GNSS}{način določanja položaja, hitrosti in časa s pomočjo svetovne satelitske navigacije  in dodatne stalne postaje na Zemlji}	
+
+\entry{DSC}{digitalizirani klic izbranega naslovnika}{angl. digital selective call}{tehnika prenašanja digitaliziranih sporočil, s katero po predpisih CCIR radijska oddajna postaja vzpostavi zvezo in prenese sporočilo drugi postaji ali skupini postaj}	
+	
+\entry{Distress Alerting}{}{angl. }{}	
+
+\entry{Distress Call}{}{angl. }{}	
+
+\entry{Dsiress Channel}{}{angl. }{}	
+
+\entry{Distress Message}{}{angl. }{}	
+
+\entry{Distress Priority Request Message}{}{angl. }{}	
+
+\entry{DSB}{način v telefoniji}{angl. Dual Side Band}{}	
+
+\entry{DSC}{}{angl. }{}	
+
+\entry{DST}{}{angl. }{}	
+
+\entry{DUT1}{}{angl. }{}	
+
+\entry{DWT}{tonaža ladje}{angl. Dead weight Tonnage}{}	
+	
+\end{multicols}
+
+%----------------------------------------------------------------------------------------
+%	SECTION E
+%----------------------------------------------------------------------------------------
+
+\section*{E}
+
+\begin{multicols}{2}
+	
+	\entry{e.g., example giving}{}{angl.}{na primer}	
+	
+			
+\end{multicols}
+
+%----------------------------------------------------------------------------------------
+%	SECTION F
+%----------------------------------------------------------------------------------------
+
+\section*{F}
+
+\begin{multicols}{2}
+
+	\entry{firmware}{}{angl.}{programska oprema, ki je prirejena uporabniku oz. izdelani napravi in jo dobite skupaj s strojno opremo v napravi, ki jo kupite}	
+	
+		
+%	\entry{..}{}{angl.}{..} 
+	
+\end{multicols}
+	
+%----------------------------------------------------------------------------------------
+%	SECTION G
+%----------------------------------------------------------------------------------------
+
+\section*{G}
+
+\begin{multicols}{2}
+	
+	\entry{governor}{}{angl.}{regulator hitrosti vrtenja glavnega ladijskega motorja, nekdaj s centrifugalnim, zdaj večinoma s hidrostatičnim elementom za vzrževanje željene hitrosti}	
+	
+%	\entry{..}{}{angl.}{..}	 
+	
+\end{multicols}	
+
+%----------------------------------------------------------------------------------------
+%	SECTION H
+%----------------------------------------------------------------------------------------
+
+\section*{H}
+
+\begin{multicols}{2}
+	
+	\entry{hold-in contacts}{}{angl.}{samozadržni kontakti, glej pod zatični ({\em latch}) mehanizem}	
+	
+%	\entry{..}{}{angl.}{..}	 
+	
+\end{multicols}	
+
+%----------------------------------------------------------------------------------------
+%	SECTION I
+%----------------------------------------------------------------------------------------
+
+\section*{I}
+
+\begin{multicols}{2}
+	
+	
+	\entry{interlock}{}{angl.}{varnostni mehanizem, stikalo oz. krmilno vezje s kontaktorji vred, ki preprečuje neželena stanja oz. dogajanja v električnem porabniku; na primer onemogoča nepooblaščen vklop porabnika}
+		 	
+%	\entry{..}{}{angl.}{..}	 	
+	 			
+\end{multicols}	
+
+%----------------------------------------------------------------------------------------
+%	SECTION L
+%----------------------------------------------------------------------------------------
+
+\section*{L}
+
+\begin{multicols}{2}
+	
+	
+	\entry{low-pass filter}{}{angl.}{nizkoprepustni filter, to je filter, ki prepušča nižje frekvennčne komponente signala, visoko frekvenčne pa duši oz. jih ne prepušča - uporablja se v primeru, ko ima naš koristen signal nižjo frekvenco kot motnje}
+
+%	\entry{..}{}{angl.}{..}
+		
+\end{multicols}	
+
+%----------------------------------------------------------------------------------------
+%	SECTION M
+%----------------------------------------------------------------------------------------
+
+\section*{M}
+
+\begin{multicols}{2}
+	
+	
+	\entry{motor control centers}{}{angl.}{središča za nadzor krmiljenja motorjev}	
+			
+\end{multicols}	
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION N
+%----------------------------------------------------------------------------------------
+
+\section*{N}
+
+\begin{multicols}{2}
+	
+	\entry{NC, normally closed}{}{angl.}{mirovni kontakt, v mirovanju sklenjen, rele razklene kontakt, ko ga napajamo}	
+	
+	\entry{NO, normally opened}{}{angl.}{delovni kontakt, v mirovanju razklenjen (razlaga: rele sklene kontakt, ko ga napajamo)}	 
+	
+%	\entry{..}{}{angl.}{..}
+	
+\end{multicols}	
+
+%----------------------------------------------------------------------------------------
+%	SECTION O
+%----------------------------------------------------------------------------------------
+
+\section*{O}
+
+\begin{multicols}{2}
+	
+	\entry{overload relay}{}{angl.}{preobremenitveni rele, rele, ki reagira oz. vklopi ali izklopi ob preobremenitvi}
+	
+%	\entry{..}{}{angl.}{..}	 
+	
+%	\entry{..}{}{angl.}{..}
+	
+\end{multicols}	
+
+%----------------------------------------------------------------------------------------
+%	SECTION P
+%----------------------------------------------------------------------------------------
+
+\section*{P}
+
+\begin{multicols}{2}
+	
+
+	\entry{PLC, Programmable Logic Controller}{}{angl.}{PLK, programirljivi logični krmilnik}	 
+	
+	\entry{PLC-based application}{}{angl.}{rešitev, ki temelji na uporabi PLKja, ko na primer želimo, da se sistem zagona motorja odzove na kombinacijo stanj, ki jih spremljamo preko analognih ali digitalnih vhodov PLK}	 
+		
+	\entry{PTC -positive temperature coefficient}{}{angl.}{pozitivni temperaturni koeficient}
+					
+\end{multicols}	
+
+%----------------------------------------------------------------------------------------
+%	SECTION R
+%----------------------------------------------------------------------------------------
+
+\section*{R}
+
+\begin{multicols}{2}
+	
+	\entry{reversing DOL starter}{}{angl.}{zaganjalnik z možnostjo izbire smeri zagona električnega motorja}	
+	
+	\entry{RMS value}{}{angl.}{efektivna vrednost izmenične veličine}
+	
+	\entry{Read Only Memory}{}{angl.}{ROM, trajni pomnilnik}		
+	
+	\entry{ROM is non-volatile}{}{angl.}{v ROMu se shranjena stanja ne izbrišejo}	
+
+\end{multicols}	
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION S
+%----------------------------------------------------------------------------------------
+
+\section*{S}
+
+\begin{multicols}{2}
+	
+	
+	\entry{solid state electronics}{}{angl.}{polprevodniška elektronika; elementi vezij so narejeni z mikroelektronskimi postopki iz polprevodniških materialov}
+	
+	\entry{solid state relay}{}{angl.}{polprevodniški rele}	
+			
+	\entry{strain-gauge base transducer}{}{angl.}{pretvornik z uporovnimi lističi, upori, vezani v wheatstonov mostič so prilepljeni na podlago, ki se upogiba ali zvija, zaradi česar se upornost lističev spreminja, kar spreminja upornost celotnega mostiča - z natančno namestitvijo lističev dosežemo, da je sprememba upornosti sorazmerna velikosti sile, ki je preoblikovala podlago: tlak, vzvoj..}	
+			
+	%\entry{}{}{angl.}{}	
+			
+	%\entry{}{}{angl.}{}	
+
+\end{multicols}	
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION T
+%----------------------------------------------------------------------------------------
+
+\section*{T}
+
+\begin{multicols}{2}
+	
+	\entry{threshold value}{}{angl.}{mejna vrednost, prag}	
+	
+	\entry{thyristor}{}{angl.}{tiristor ( je polprevodniški element za velike električne moči, sestavljen iz največkrat štirih plasti P-N-P-N, ki popolnoma prevaja tok skozenj, če za trenutek prejme krmilni tok, ki vzpostavi napetost na krmilni sponki. Ko s krmilnim tokom napetost s krmilne sponke odvedemo, tok skozi tiristor  preneha. Za razliko od relejev, razen za trenutek, tiristorji ne rabijo krmilnega toka za vzdrževanje odprtosti oz. prevajanja.}	 
+	
+	\entry{triac-solid state relay}{}{angl.}{polprevodniški rele v izvedbi s triakom}
+	
+\end{multicols}	
+
+%----------------------------------------------------------------------------------------
+%	SECTION V
+%----------------------------------------------------------------------------------------
+
+\section*{V}
+
+\begin{multicols}{2}
+	
+	\entry{voltage built up}{}{angl.}{naraščanje napetosti}	
+	
+%	\entry{..}{}{angl.}{..}	 
+	
+%	\entry{..}{}{angl.}{..}
+	
+\end{multicols}	
+
+%----------------------------------------------------------------------------------------
+%	SECTION W
+%----------------------------------------------------------------------------------------
+
+\section*{W}
+
+\begin{multicols}{2}	
+	
+	\entry{wheatstone bridge configuration}{}{angl.}{zasnova wheatstonovega mostiča, wheatstonov mostič sestavljajo štirje upori, vezani tako, da tvorijo obliko kvadrata - po eni diagonali priključimo stabilen enosmerni izvor, po drugi pa z voltmetrom merimo napetost; ko je mostič v ravnotežju, je napetost na voltmetru enaka nič}	
+	
+%	\entry{..}{}{angl.}{..}	 
+	
+%	\entry{..}{}{angl.}{..}
+	
+\end{multicols}	
+
+%----------------------------------------------------------------------------------------
+%	SECTION Z
+%----------------------------------------------------------------------------------------
+
+\section*{Z}
+
+\begin{multicols}{2}
+	
+	\entry{zero – correction trimmer}{}{angl.}{nastavljivi upor (trimer) za nastavljanje ničle}	
+	
+%	\entry{..}{}{angl.}{..}	 
+	
+%	\entry{..}{}{angl.}{..}
+	
+\end{multicols}	
+
+%----------------------------------------------------------------------------------------
+%	SECTION X
+%----------------------------------------------------------------------------------------
+
+\section*{X}
+
+\begin{multicols}{2}
+	
+%	\entry{..}{}{angl.}{..}	
+	
+	\entry{Xenon}{ksenon}{angl. xenon}{žlahtni plin}	 
+	
+%	\entry{..}{}{angl.}{..}
+	
+\end{multicols}	
+
+	
+%------------------------------------------------
+
+\end{document}
