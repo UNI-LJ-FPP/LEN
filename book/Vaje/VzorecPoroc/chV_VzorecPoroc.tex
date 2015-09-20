@@ -1,6 +1,6 @@
 %
 \chapter{Vzorec poročila o opravljenem delu in o spoznanjih}
-\label{intro} % Always give a unique label
+\label{ch:Poroc_Vzorec} % Always give a unique label
 % use \chaptermark{}
 % to alter or adjust the chapter heading in the running head
 
@@ -31,7 +31,7 @@ Primer kako študentje napišejo poročilo.
 
 \subsection{Uvod}
 %\label{sec:2}
-Delo se je začelo z osnovanjem skupin. Ko so bile skupine sestavljene, je profesor vsaki dal pisna navodila. Naša skupina je prejela navodila za usposabljanje girokompasa. Profesor nam je poslal literaturo ter navodila naprav, katera smo preučili.
+Delo se je začelo z osnovanjem skupin. Ko so bile skupine sestavljene, je profesor vsaki dal pisna navodila. Naša skupina je prejela navodila za usposabljanje girokompasa. Profesor nam je poslal literaturo  \cite{Girokompas_2012}, \cite{Girokompas_2013} ter navodila naprave \cite{Gyro_Man}, kar smo preučili.
 
 Naš del raziskovanja smo začeli tako, da smo najprej naprave preizkusili povezati in usposobiti v laboratoriju s pomočjo profesorja. Ko nam je to uspelo, smo se zmenili za gomon Valentino in poskuse izvedli na morju. Pred odhodom na morje smo še enkrat povezali naprave, da smo preverili ali vse res deluje.
 
@@ -170,13 +170,13 @@ Opravili smo še en poizkus na morju. Vse naprave smo povezali z računalnikom t
 	\label{fig:GyroGps_sled}       % Give a unique label
 \end{figure}
 
-Usposobili smo tudi še GPS, ki si je tudi zapisoval podatke. Opravili smo zajem podatkov med plovbo, ki je trajala točno 7,0 minut. Podatke, ki jih je program Tera Term shranil v računalnik, smo odprli s programom Excel, jih prešteli in ugotovili, da Gyrotrac zapisuje 8 podatkov na sekundo. To smo izračunali tako, da smo število podatkov delili s časom merjenja. Torej merili smo 7 minut, kar je enako 420 sekund, v tem času se je nabralo 3353 vrstic podatkov.
+Usposobili smo tudi še GPS, ki si je sproti zapisoval podatke. Izvedli smo zajem podatkov med plovbo, ki je trajala točno 7,0 minut. Podatke, ki jih je program Tera Term shranil v računalnik, smo odprli s programom Excel, jih prešteli in ugotovili, da Gyrotrac zapisuje 8 podatkov na sekundo. To smo izračunali tako, da smo število podatkov delili s časom trajanja vožnje. Torej merili smo 7 minut, kar je enako 420 sekund, v tem času se je nabralo 3353 vrstic podatkov.
 
 $$ 3353\,vrstic : 420\,s = 7,98\,vrstic/s \equiv 8\,vrstic/s $$
 
 
 \subsubsection{Statična napaka, izmerjena na kopnem}
-Ko so bile meritve na morju opravljene smo opravili še meritve na obali.  Girotrac smo postavili na trinožno stojalo in izmerili pokrito smer svetilkov na Bernardinu, in sicer svetilnika R.Bl.3s6m3M in R.Bl.5s9m3M, ki je znašala $239,5^{\circ}$. To vrednost smo primerjali z vrednostjo izmerjeno na karti, ki je bila $240,6^{\circ}$ in ugotovili, da je napaka girokompasa tokrat znašala $1,1^{\circ}$. 
+Ko so bile meritve na morju opravljene, smo opravili še meritve na obali.  Gyrotrac smo postavili na trinožno stojalo in izmerili pokrito smer svetilkov na Bernardinu, in sicer svetilnika R.Bl.3s6m3M in R.Bl.5s9m3M, ki je znašala $239,5^{\circ}$. To vrednost smo primerjali z vrednostjo izmerjeno na karti, ki je bila $240,6^{\circ}$ in ugotovili, da je napaka girokompasa tokrat znašala $1,1^{\circ}$. 
 
 \begin{figure}
 	\centering
@@ -193,7 +193,7 @@ Ko so bile meritve na morju opravljene smo opravili še meritve na obali.  Girot
 \end{figure}
 
 
-Iz tega lahko sklepamo, da napaka variacije ne vpliva znatno na Girotrack kompas in je bila napaka izmerjena na morju vpliv močnega vetra ter nezmožnosti obdržati gomon dovolj dobro v smeri, da bi lahko izmerili dovolj natančen azimut. Izmerili smo še azimut na svetilik pred vhodom v Portoroško marino (Z.Bl.4s8m4M), ki je bil $139,0^{\circ}$.
+Iz tega lahko sklepamo, da napaka variacije ne vpliva znatno na Gyrotrack kompas in je bila napaka izmerjena na morju vpliv močnega vetra ter nezmožnosti obdržati gomon dovolj dobro v smeri, da bi lahko izmerili dovolj natančen azimut. Izmerili smo še azimut na svetilik pred vhodom v Portoroško marino (Z.Bl.4s8m4M), ki je bil $139,0^{\circ}$.
 
 \begin{figure}
 	\centering
@@ -210,7 +210,6 @@ Iz tega lahko sklepamo, da napaka variacije ne vpliva znatno na Girotrack kompas
 \end{figure}
 
 
-Gyrotrac je bil postavljen na kamnitem pomolu pred vhodom v čolnarno.
 
 \begin{figure}
 	\centering
@@ -226,9 +225,23 @@ Gyrotrac je bil postavljen na kamnitem pomolu pred vhodom v čolnarno.
 	\label{fig:TT_zapisovanjePokriteSmeri}       % Give a unique label
 \end{figure}
 
-Nato smo ta azimut izmerili še na karti in odčitali azimut $138,1^{\circ}$. iz tega sledi, da je bila tokrat napaka kompasa $0,9^{\circ}$, kar je še enkrat potrdilo zgornjo navedbo o nezanesljivem rezultatu meritve na morju zaradi močnega vetra. 
+Gyrotrac je bil postavljen na kamnitem pomolu pred vhodom v čolnarno. Azimut smo izmerili še na karti in $138,1^{\circ}$. Iz tega sledi, da je bila tokrat \textbf{napaka kompasa} $0,9^{\circ}$. Ovrgli smo nezanesljiv rezultat, ki smo ga dobili med meritvijo na morju v močnem vetru. 
 
+\textbf{Reakcijskega časa} Gyrotraca nismo izmerili, zanesemo se na rezultate \ref{fig:StabRez}, ki so lani z laboratorijskimi meritvami izmerili naši predhodniki \cite{Girokompas_2013}. Po naši oceni rabi odčitek smeri Gyrotraca približno 10 sekund, da se po zelo sunkovitem zasuku zadovoljivo ustali v novi smeri.
 
+\begin{figure}
+	\centering
+	% Use the relevant command for your figure-insertion program
+	% to insert the figure file.
+	% For example, with the option graphics use
+	\includegraphics[height=5cm]{Vaje/VzorecPoroc/figs/Gyro_casOdziva.png}
+	%
+	% If not, use
+	%\picplace{5cm}{2cm} % Give the correct figure height and width in cm
+	%
+	\caption{Stabilizacija podatkov GyroTrac v območje $\pm5^{\circ}$, ko so senzorski del sunkovito zasukali za $90^{\circ}$  \cite{Girokompas_2013}}
+	\label{fig:StabRez}       % Give a unique label
+\end{figure} 
 
 
 \subsection{Koristi za naše bodoče delo}
@@ -236,6 +249,7 @@ Nato smo ta azimut izmerili še na karti in odčitali azimut $138,1^{\circ}$. iz
 V pomorstvu je napaka kompasa lahko usodna,  ko nam ostale naprave odpovejo. Zato se na ladji vodi napako kompasa v vsaki straži s pomočjo svetilnikov, zvezd, objektov. To je bila zelo koristna vaja, saj na tak praktičen način spoznavamo naše delo in v bistvu vidimo, kaj je sploh ta napaka, katero upoštevamo ob vrisovanju položajev in vrisovanju azimutov pri pouku obalne navigacije. Znati popravit to napako je osnova navtike. Seveda pa smo tudi uživali v vožnji s čolnom se naučili pristati in privezati ladjo, pri čemer je prišel do izraza \textit{team building}. Upamo, da smo vam jasno predstavili in povedali koliko je v resnici pomembno znanje popravka kompasa.
 
 
-
+%\bibliographystyle{plain}
+%\bibliography{literatura}
 
 %
