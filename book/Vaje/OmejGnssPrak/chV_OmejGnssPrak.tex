@@ -1,110 +1,117 @@
 %
-\chapter{Omejitve GNSS v praksi}
-\label{intro} % Always give a unique label
+\chapter{Omejitve GNSS v pomorski praksi}
+\label{Vaje:GnssPraks} % Always give a unique label
 % use \chaptermark{}
 % to alter or adjust the chapter heading in the running head
 
-Seznanitev s praktičnimi težavami sprejema GNSS in z možnimi napačnimi interpretacijami navigacijskih rešitev v obdobju naravnih in umetno povzročenih motenj.
+Spoznali boste nekaj praktičnih težav sprejema GNSS in iz njih izhajajočimi možnimi napačnimi razlagami navigacijskih rešitev. Glede na možnosti in okoliščine boste opazovali in dokumentirali obnašanje sprejemnika v obdobju naravnih in umetno povzročenih motenj.
 
-\section{Section Heading}
-\label{sec:1}
-% Always give a unique label
-% and use \ref{<label>} for cross-references
-% and \cite{<label>} for bibliographic references
-% use \sectionmark{}
-% to alter or adjust the section heading in the running head
-Your text goes here. Use the \LaTeX\ automatism for your citations
-\cite{monograph}.
+\section{Pomen naloge}
+\label{sec:GnnsPomen}
 
-\subsection{Subsection Heading}
-\label{sec:2}
-Your text goes here.
+Zastavili si boste vprašanje: Koliko lahko zaupam svojemu sprejemniku GPS? V katerih pogojih lahko navigacijski rešitvi naprave bolj zaupam, kdaj manj in kdaj sploh ne?
 
-\begin{equation}
-\vec{a}\times\vec{b}=\vec{c}
-\end{equation}
+Vsak uporabnik navigacijskega sprejemnika je že opazil, da njegov sprejemnik včasih težje določi svoj položaj. Okoliščine, ki povzročajo večjo negotovost položaja boste našli v literaturi in kot \textit{razbijalci mitov} praktično preverili, če vplivajo na določanje položaja ali ne.  
 
-\subsubsection{Subsubsection Heading}
-Your text goes here. Use the \LaTeX\ automatism for cross-references as
-well as for your citations, see Sect.~\ref{sec:1}.
+\section{Vloge v skupini}
+\label{sec:Gnss_Vloge}
+Skupino sestavljate štirje člani, ki si med seboj tudi pomagate, vendar vsak nosi odgovornost za svoj del.
 
-\paragraph{Paragraph Heading} %
-Your text goes here.
-
-\subparagraph{Subparagraph Heading.} Your text goes here.%
-%
-\index{paragraph}
-% Use the \index{} command to code your index words
-%
-% For tables use
-%
 \begin{table}
-\centering
-\caption{Please write your table caption here}
-\label{tab:1}       % Give a unique label
-%
-% For LaTeX tables use
-%
-\begin{tabular}{lll}
-\hline\noalign{\smallskip}
-first & second & third  \\
-\noalign{\smallskip}\hline\noalign{\smallskip}
-number & number & number \\
-number & number & number \\
-\noalign{\smallskip}\hline
-\end{tabular}
+	\centering
+	\caption{Oris vlog skupine Omejtve GNSS v pomorski praksi}
+	\label{tab:GnssVloge} 
+	\begin{tabular}{c|c|l}
+		\hline\noalign{\bigskip}
+		število & odgovornost                 & rezultat dela \\
+		\noalign{\smallskip}\hline\noalign{\smallskip}
+		1       & iskalec literature          & izvleček najdenega\\
+		1       & zapisovalec stanj, napovedi & pregled uresničitev napovedi \\
+		1       & priprava in izvedba poskusa & razumevanje poskusa \\
+		1       & predstavitev                & izvleček izvirnega dela skupine \\ \hline
+		vsi     & poročilo                    & poglobitev razumevanja vesoljskega vremena\\
+		\noalign{\smallskip}\hline
+	\end{tabular}
 \end{table}
-%
-%
-% For figures use
-%
-\begin{figure}
-\centering
-% Use the relevant command for your figure-insertion program
-% to insert the figure file.
-% For example, with the option graphics use
-\includegraphics[height=4cm]{figure}
-%
-% If not, use
-%\picplace{5cm}{2cm} % Give the correct figure height and width in cm
-%
-\caption{Please write your figure caption here}
-\label{fig:1}       % Give a unique label
-\end{figure}
+
+\subsection{V pregledu literature se osredotočite in zapišite izvleček}
+\label{subsec:GnssPrak_ZapIzvlLit}
+
+\textbf{Nasvet} Bodite praktični. Razmislite kaj boste napisali v izvlečku, predvsem pa najdite odgovor na vprašanje, ki si ga boste kot skupna zastavili v začetku. Na primer: \textit{Kaj podatki o vesoljskem vremenu lahko pomagajo pomorščaku med plovbo po Sredozemlju? Kako jih lahko pridobi in kako upošteva?}
+
+
+Mednarodne lestvice \textit{nevihtnih pojavov} RSG (angl. Radio blackouts, Solar radiation storms, Geomagnetic storms) boste našli na naslovu (17-5). Trenutne nevarnosti sprememb vesoljskega vremena za radijske zveze najdete na (18-6), za satelitsko navigacijo na (19-7) in za električna omrežja na (20-8).
+
+%Andrej Štern (diapozitivi) 
+%\verb|http://www.s50e.si/wp-content/uploads/2012/10/S50E-55LET-S57BAJ.pdf|
+
+%Marko Munih: Prednosti SDR tehnologije na KV in UKV
+
+Za bolj zahtevne bralce priporočamo pregled revije \textit{Space Weather} (5-9).
+
+\subsection{Sestavite pregled kritičnih okoliščin GNSS navigacije}
+\label{subsec:GnssPrak_Podat}
+
+
+\subsection{Potrdite ali ovrzite vpliv kritičnih okoliščin}
+\label{subsec:GnssPrak_Posk}
+Možne okoliščine...
+
+
+\subsection{Oprema}
+\label{subsec:GnssPrak_Oprema}
+Dva različna GNSS sprejemnika..
+
+\section{Viri}
+\label{sec:GnssPrak_Viri}
+
+Pregled virov, ki so našteti med opisi nalog članov skupine.
+
+
+
+%\paragraph*{ }
+%Dostop do navedenih spletnih dokumentov najdete na strani \verb|www.forumgnsss.si|, kjer v rubriki \textit{Za študente} izberite \textit{spletnjača vesoljsko vreme}.
+
+
 %
 % For built-in environments use
 %
-\begin{theorem}
-Theorem text goes here.
-\end{theorem}
-%
-% or
-%
-\begin{lemma}
-Lemma text goes here.
-\end{lemma}
-%
-%
 % Problems or Exercises should be sorted chapterwise
-\section*{Problems}
+\section*{Naloge}
 \addcontentsline{toc}{section}{Problems}
 %
 % Use the following environment.
 % Don't forget to label each problem;
 % the label is needed for the solutions' environment
 \begin{prob}
-\label{prob1}
-The problem\footnote{Footnote} is described here. The
-problem is described here. The problem is described here.
+	\label{Nal:GnssPrak_Izvl}
+	\textbf{Izvleček naj bo uvod v poročilo}\\
+	(a) V skupini najdite največ pet preverljivh okoliščin, ki naj bi povečevale negotovost odčitavanja.\\
+	(b) Zapišite izvleček, s katerim boste preverjali.
 \end{prob}
 
 \begin{prob}
-\label{prob2}
-\textbf{Problem Heading}\\
-(a) The first part of the problem is described here.\\
-(b) The second part of the problem is described here.
+	\label{Nal:GnssPrak_Belez}
+	\textbf{Beležite podatke }\\
+	(a) Izberite katere podatke o stanju in napovedih boste beležili.\\
+	(b) Beležite vsaj 15 dni. \\
+	(c) V poročilu kritično zapišite ujemanja med napovedmi in dejanskimi pojavi.
 \end{prob}
 
+\begin{prob}
+	\label{Nal:GnssPrak_Eksp}
+	\textbf{Opazujte vpliv Sončevega vetra na magnetno polje Zemlje}\\
+	(a) Sestavite napravo za opazovanje.\\
+	(b) Izvedite poskus. \\
+	(c) Posvetujte se z ostalimi člani in napišite poročilo o svojih opažanjih.
+\end{prob}
 
-
+\begin{prob}
+	\label{Nal:GnssPrak_Predst}
+	\textbf{Predstavite opravljeno delo celotne skupine}\\
+	(a) Pomagajte ostalim članom pri njihovem delu. \\
+	(b) Poskrbite, da je skupina v stiku s predavatelji.\\
+	(b) Spremljajte napredek in sestavite osnutek poročila. \\
+	(č) Po oddanem poročilu pripravite 5 minutno predstavitev na tabli.
+\end{prob}
 %
