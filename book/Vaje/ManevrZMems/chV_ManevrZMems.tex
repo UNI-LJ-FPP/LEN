@@ -95,11 +95,27 @@ Podatke boste dobili v datoteki s končnico txt, ki jo lahko uvozite v kateri ko
 	\label{fig:v_mems_e_ascii}
 \end{figure}
 \noindent
-Ostale nastavitve MT Managerja si pa študentje razložijo sami s pomočjo literature, ki jo dobite pri mentorju.
+Ostale nastavitve MT Managerja si pa študentje razložijo sami s pomočjo literature, ki jo dobite na naši \href{https://drive.google.com/drive/folders/0B1dT-CBA07ANLWdYVHlVd3p1Q0U}{povezavi}.
 
 \newpage
 \section{Naloga}
-Za vajo je potrebno izvesti več različnih manevrov recimo osmico, skok preko lastnega vala, ... Celoten manever je potebno shraniti v datoteko. Na kopnem je potrebno podatke izvoziti, obdelati in grafično prikazati. Kot primer si poglejmo grafe na sliki \ref{fig:v_mems_graf}. 
+Za vajo je potrebno izvesti več različnih manevrov
+\begin{itemize}
+	\item osmica
+	\item skok preko lastnega val
+	\item zaviranje
+	\item počasno in hitro zavijanje (test v obe smeri)
+	\item Darjan preveri manevre in doda še nove $\ldots$
+	\item vožnja v kurzu in določitev magnetnega kurza glede na $x$ os naprave
+	\item enaka naloga prejšnji, le da se doda popravek k magnetnemu kompasu za devijacijo, ki jo ima naprava vgrajeno
+	\item z napravo, ki vsebuje še GPS, prekontrolirajte vožnjo u kurzu (obe prejšnji nalogi). Mišljena je kontrola matematičnega model za devijacijo zemeljskega magnetnega polja. Devijacija ($\delta$) je funkcija zemeljske širine in dolžine 
+	\[
+	\delta = \delta(\varphi,\lambda).
+	\]
+\end{itemize}
+
+\noindent
+Posamezen manever je potrebno shraniti v lastno datoteko. Na kopnem je potrebno podatke izvoziti, obdelati in grafično prikazati. Kot primer si poglejmo grafe na sliki \ref{fig:v_mems_graf}. Na sliki \ref{fig:v_mems_graf} vidimo, da je čas v sekundah. Pri vaših podatkih (glej sliko \ref{fig:v_mems_e_ascii}) ima vsaka meritev svojo številko (stolpec \emph{counter} na sliki \ref{fig:v_mems_e_ascii}) in narašča po 1. Premislite, kako določiti čas v sekundah s pomočjo preštevanja meritev.  
 
 \begin{figure}[!htbp]
 	\begin{minipage}{3.5cm}
@@ -113,6 +129,6 @@ Za vajo je potrebno izvesti več različnih manevrov recimo osmico, skok preko l
 	\begin{minipage}{3.5cm}
 		\centering \includegraphics[width=4cm]{Vaje/ManevrZMems/figs/yaw.pdf}
 	\end{minipage}
-	\caption{Grafičen prikaz izvoznih podatkov temperature, pospeška v $y$ smeri in kota okoli $z$ osi - "Yaw".}
+	\caption{Grafičen prikaz izvoznih podatkov temperature, pospeška v $y$ smeri in kota okoli $z$ osi - "Yaw" v odvisnosti od časa, ki je podan v sekundah.}
 	\label{fig:v_mems_graf}
 \end{figure}
