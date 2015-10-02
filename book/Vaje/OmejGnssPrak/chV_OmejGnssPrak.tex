@@ -4,14 +4,14 @@
 % use \chaptermark{}
 % to alter or adjust the chapter heading in the running head
 
-Spoznali boste nekaj praktičnih težav sprejema GNSS in iz njih izhajajočimi možnimi napačnimi razlagami navigacijskih rešitev. Glede na možnosti in okoliščine boste opazovali in dokumentirali obnašanje sprejemnika v obdobju naravnih in umetno povzročenih motenj.
+Spoznali boste nekaj praktičnih težav sprejema GNSS in iz njih izhajajoče možne napačne razlage navigacijskih rešitev. Glede na možnosti in okoliščine boste opazovali in dokumentirali obnašanje sprejemnika v obdobju naravnih in umetno povzročenih motenj.
 
 \section{Pomen naloge}
 \label{sec:GnnsPomen}
 
 Zastavili si boste vprašanje: Koliko lahko zaupam svojemu sprejemniku GPS? V katerih pogojih lahko navigacijski rešitvi naprave bolj zaupam, kdaj manj in kdaj sploh ne?
 
-Vsak uporabnik navigacijskega sprejemnika je že opazil, da njegov sprejemnik včasih težje določi svoj položaj. Okoliščine, ki povzročajo večjo negotovost položaja boste našli v literaturi in kot \textit{razbijalci mitov} praktično preverili, če vplivajo na določanje položaja ali ne.  
+Vsak uporabnik navigacijskega sprejemnika je že opazil, da njegov sprejemnik včasih lažje, včasih težje določi svoj položaj. Okoliščine, ki povzročajo povečanje negotovosti položaja, kako sistem sploh deluje, kakšne razsežnosti ima njegova uporaba, kaj .., boste našli v literaturi in kot \textit{razbijalci urbanih legend} praktično preverili, ali v resnici držijo ali ne.  
 
 \section{Vloge v skupini}
 \label{sec:Gnss_Vloge}
@@ -25,29 +25,45 @@ Skupino sestavljate štirje člani, ki si med seboj tudi pomagate, vendar vsak n
 		\hline\noalign{\bigskip}
 		število & odgovornost                 & rezultat dela \\
 		\noalign{\smallskip}\hline\noalign{\smallskip}
-		1       & iskalec literature          & izvleček najdenega\\
-		1       & zapisovalec stanj, napovedi & pregled uresničitev napovedi \\
-		1       & priprava in izvedba poskusa & razumevanje poskusa \\
+		2       & iskalec literature          & preizkus legend\\
+		2       & priprava in izvedba poskusa & razumevanje poskusa \\
 		1       & predstavitev                & izvleček izvirnega dela skupine \\ \hline
 		vsi     & poročilo                    & poglobitev razumevanja vesoljskega vremena\\
 		\noalign{\smallskip}\hline
 	\end{tabular}
 \end{table}
 
-\subsection{V pregledu literature se osredotočite in zapišite izvleček}
-\label{subsec:GnssPrak_ZapIzvlLit}
+\subsection{Literarni preizkus legend}
+\label{subsec:GnssPrak_LitPreizkusLegend}
 
-\textbf{Nasvet} Bodite praktični. Razmislite kaj boste napisali v izvlečku, predvsem pa najdite odgovor na vprašanje, ki si ga boste kot skupna zastavili v začetku. Na primer: \textit{Kaj podatki o vesoljskem vremenu lahko pomagajo pomorščaku med plovbo po Sredozemlju? Kako jih lahko pridobi in kako upošteva?}
+V devetih stavkih imate zapisanih devet urbanih legend, ki so zelo zakoreninjene. S študijem literature jih boste poskusili potrditi ali ovreči.
+
+\begin{enumerate}
+	\item GPS je ladijska navigacijska naprava.
+	\item GPS zagotavlja samo podatek o položaju.
+	\item GPS omogoča uporabo satelitskih slik.
+	\item GPS je \textit{veliki brat}, ki dopušča možnost sledenja vsega in vsakogar.
+	\item GPS sateliti so geostacionarni, tako kot telekomunikacijski.
+	\item Vojaški sprejemniki GPS so bolj natačni kot civilni.
+	\item Uporaba GPS je dovoljena, ko plačamo uporabnino.
+	\item GPS deluje povsod.
+	\item Sistem Galileo bo kmalu deloval.
+\end{enumerate}
 
 
-Mednarodne lestvice \textit{nevihtnih pojavov} RSG (angl. Radio blackouts, Solar radiation storms, Geomagnetic storms) boste našli na naslovu (17-5). Trenutne nevarnosti sprememb vesoljskega vremena za radijske zveze najdete na (18-6), za satelitsko navigacijo na (19-7) in za električna omrežja na (20-8).
+\textbf{Nasvet} Bodite praktični. Razmislite kaj boste v sklepih napisali o legendah in kako boste z meritvami vsaj tri legende potrdili ali ovrgli.
+
+% NASA video 'ScienceCasts: NASA Spacecraft takes Space GPS to New Heights' iz katerega boste spoznali 'magnetic reconnection' https://www.youtube.com/watch?v=taMzKcehfGw
+
+%tukaj je JRCjeva aplikacija za spremljanje prisotnih wi-fi omrežij, hitrosti prenosov...
+% Lahko nastavita kako pogosto bosta oddajali opažanja.
+% https://play.google.com/store/apps/details?id=ec.europa.eu.smartmonitor
 
 %Andrej Štern (diapozitivi) 
 %\verb|http://www.s50e.si/wp-content/uploads/2012/10/S50E-55LET-S57BAJ.pdf|
 
 %Marko Munih: Prednosti SDR tehnologije na KV in UKV
 
-Za bolj zahtevne bralce priporočamo pregled revije \textit{Space Weather} (5-9).
 
 \subsection{Sestavite pregled kritičnih okoliščin GNSS navigacije}
 \label{subsec:GnssPrak_Podat}
@@ -65,13 +81,14 @@ Dva različna GNSS sprejemnika..
 \section{Viri}
 \label{sec:GnssPrak_Viri}
 
-Pregled virov, ki so našteti med opisi nalog članov skupine.
+Pregled virov, iz katerih lahko začnete.
 
-
-
-%\paragraph*{ }
-%Dostop do navedenih spletnih dokumentov najdete na strani \verb|www.forumgnsss.si|, kjer v rubriki \textit{Za študente} izberite \textit{spletnjača vesoljsko vreme}.
-
+\href{http://geology.isu.edu/geostac/Field_Exercise/GPS/GPS_basics_u_blox_en.pdf}{\textit{GPS Basics Introduction to the system Application overview}} \\
+\href{http://www.javad.com/downloads/javadgnss/publications/GPS-Tutorial.pdf}{\textit{A GPS Tutorial Basics of High-Precision Global Positioning Systems}} \\
+\href{http://spaceplace.nasa.gov/gps-pizza/en/}{\textit{GPS and the Quest for Pizza}} \\
+\href{http://www.javad.com/downloads/javadgnss/publications/Javad_Munich_07.pdf}{\textit{The best of GPS, the best of GLONASS and now with: we support Galileo too}} \\
+\href{http://www.sappart.net/wp-content/uploads/2014/08/White-Paper_SaPPART_sept15.pdf}{\textit{SaPPART White paper Better use of Global Navigation Satellite Systems for safer and greener transport}} \\
+\href{http://www.insidegnss.com/node/4684}{\textit{GNSS Receiver Manufacturers Thwart Jamming, Spoofing Users on ION panel want certification requirement.}}
 
 %
 % For built-in environments use
@@ -79,10 +96,6 @@ Pregled virov, ki so našteti med opisi nalog članov skupine.
 % Problems or Exercises should be sorted chapterwise
 \section*{Naloge}
 \addcontentsline{toc}{section}{Problems}
-%
-% Use the following environment.
-% Don't forget to label each problem;
-% the label is needed for the solutions' environment
 \begin{prob}
 	\label{Nal:GnssPrak_Izvl}
 	\textbf{Izvleček naj bo uvod v poročilo}\\
@@ -100,10 +113,11 @@ Pregled virov, ki so našteti med opisi nalog članov skupine.
 
 \begin{prob}
 	\label{Nal:GnssPrak_Eksp}
-	\textbf{Opazujte vpliv Sončevega vetra na magnetno polje Zemlje}\\
-	(a) Sestavite napravo za opazovanje.\\
-	(b) Izvedite poskus. \\
-	(c) Posvetujte se z ostalimi člani in napišite poročilo o svojih opažanjih.
+	\textbf{Izberite tri legende in vsako praktično preizkusite}\\
+	(a) Zamislite si tri poskuse.\\
+	(b) Izvedite poskuse. \\
+	(c) Zabeležite rezultate.
+	(č) Posvetujte se z ostalimi člani in napišite poročilo o svojih opažanjih.
 \end{prob}
 
 \begin{prob}
