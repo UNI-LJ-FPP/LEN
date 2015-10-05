@@ -1629,12 +1629,9 @@ to\z@{\kern0.55\wd0\vrule\@height0.45\ht0\hss}\box0}}}}
     \par
     \vskip 1.5em               % Vertical space after date.
   \fi
- \begin{center}
- 		\includegraphics[width=6cm]{book_logo.jpg}
- \end{center}
  \vfill
- %\includegraphics[width=6cm]{logo_fpp.png}
- {\Large Univerza v Ljubljani\\Fakulteta za pomorstvo in promet}
+ \includegraphics[width=10cm]{book_logo.pdf}
+ %{\Large Univerza v Ljubljani\\Fakulteta za pomorstvo in promet}
  %
  %\includegraphics[width=2cm]{\@logo}
  %\hskip 5mm
