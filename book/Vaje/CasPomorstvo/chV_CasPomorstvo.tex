@@ -74,14 +74,23 @@ Kako pa določimo zemljepisno dolžino - $\lambda$?\\[2mm]
 %
 Med premikanjem kotomera, merimo tudi točen čas. Ko ugotovimo, da se Sonce ne dviga več in se je pričelo spuščati, zabeležimo čas, ko je Sonce najvišje ali v \emph{zenitu}. Ne pozabimo, čas je v UTC.\\[2mm]
 %
-Formula po kateri določimo $\lambda$ je:
+Čas merimo s srednjim Sončnim časom. Pravi Sončni čas je mera s katerim lahko indentificiramo našo geografsko širino $\lambda$. Razlika med pravim Sončnim časom in srednjim Sončnim časom je \emph{časovna enačba}. To je količina, ki se med letom spreminja in jo dobimo v navtičnem almanahu. Formula po kateri določimo $\lambda$ je:
 
 \begin{equation}
 \label{eq:v_cas_lambda} 
-\lambda[\text{[deg]} := 15^\circ \left( 12.0 - \text{time} \right).
+\lambda[\si{\degree}] := 15\si{\degree} \left( \text{LT}_{\text{kulminacije}} - 12h + \eta(\text{UTC}) \right).
 \end{equation}
 
-Paziti moramo, da je čas, ki ga vnesemo v enačbo (\ref{eq:v_cas_lambda}) vedno v urah. Torej moramo čas, ki je zapisan HH:MM:SS pretvoriti v HH.hhhh. Nato s pomočjo enačbe (\ref{eq:v_cas_lambda}) lahko določimo našo zemljepisno dolžino v stopinjah vzhoda.\\[2mm]
+Paziti moramo, da je čas, ki ga vnesemo v enačbo (\ref{eq:v_cas_lambda}) vedno v urah. Torej moramo čas, ki je zapisan HH:MM:SS pretvoriti v HH.hhhh. Nato s pomočjo enačbe (\ref{eq:v_cas_lambda}) lahko določimo našo zemljepisno dolžino v stopinjah. Kratice pomenijo: LT - local time, $\eta(\text{UTC})$ časovna enačba podana v navtičnem almanahu, kjer je parameter UTC.
+
+Časovno enačbo in oceno, kdaj je sonce v kulminaciji si lahko določite na strani \href{https://www.esrl.noaa.gov/gmd/grad/solcalc/azel.html}{Solar Position Calculator} ali še z grafičnim prikazom na strani \href{https://www.esrl.noaa.gov/gmd/grad/solcalc/}{NOAA Solar Calculator}. Na sliki \ref{fig:v_cas_calculator} je prikazan vnos podatkov in določitev časovnega popravka ($\eta$ - Equation of Time) z časom in višino sonca.
+%
+\begin{figure}[tbph!]
+	\centering \includegraphics[width=8cm]{Vaje/CasPomorstvo/figs/calculator.png}
+	\caption{Okno v katerim vnesete parametre za določitev časovnega popravka in ocena ure kulminacije Sonca.}
+	\label{fig:v_cas_calculator}
+\end{figure}
+
 %
 Odogovori na naslednja vprašanja:\\[2mm]
 V enačbi (\ref{eq:v_cas_lambda}) se predznak $\lambda$ spremeni, ko je sonce v zenitu po 12h UTC. Kaj to pomeni? Kje smo, ko je sonce v zenitu točno ob 12h UTC? Pa še to, kaj je datumska meja?
