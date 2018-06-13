@@ -1,0 +1,30 @@
+http://www.glasnavigation.com/observations.html#.WOUYAccUzY4.linkedin
+
+
+Home
+Affiliation
+Contact
+Squat
+Observations
+Opinions
+Useful Links
+Copyright © Glas Navigation, LLC. All rights reserved.
+Overlooked or Ignored Navigation Electronics Dangers
+
+Some of the basic essentials for safe navigation appear to be going unrecognized therefore uncorrected. These affect electronic navigation including ECS, ECDIS, and RADAR as well as conventional course and bearing applications. The alignment of the navigation equipment being installed parallel with the centerline of the vessel is paramount. Modern radars have the ability to adjust the heading alignment thru a firmware interface. Many times I’ve observed installations with the Radar Heading Marker offset by a couple of degrees. Proper alignment of the radar heading is essential for transiting narrow channels, and avoiding allisions / collisions, especially during periods of reduced visibility. Crews have become desensitized to the basics due to over dependence of AIS overlays on ECS and ECDIS displays. However, the same alignment issue is in play here, only worse. The gyro which provides the heading signal interfaced to all of the navigation electronics is in most cases askew, offset by a degree or more. The proper procedure starts with the installation of the foundation bracket for the gyro. The foundation bracket needs to be aligned with the centerline axis of the vessel, along with the slotted mounting holes on the base of the gyro allowing for finer adjustment of the housing. Then comes the Latitude compensator adjustment, the newer gyros handle this process internally with firmware thru a GPS input. The older units use either a potentiometer based adjustment or a mount based physical Latitude Corrector which slews the entire gyro housing on the foundation. The latter is found to be the one most misunderstood and set incorrectly.
+
+First let’s address the gyro, assuming that a known and constant error has been recorded. With the vessel secure alongside a pier and the gyro running, loosen the foundation bolts slewing the housing until the error has been zeroed. Recommend utilizing a Sharpie and outline the original position of the bolt heads, also take care while tightening the bolts not to further slew the housing.
+
+Next verify preferably on a range that the gyro is aligned and the error is zero.
+
+Second is the radar(s), note that the display paints by sweeping clockwise. This means that the left edge of a target is a reliable reference where the right edge of the target could be elongated. Considering this, while underway and holding a steady heading, steer towards a buoy if possible a couple of miles away. Standing as far aft as possible and sighting the buoy in the center of the middle wheelhouse window, adjust the radar heading line to intersect with the buoy.
+
+Depending on company policies where “happy fingers” aren’t welcome regarding the adjustment of this equipment; If you are transiting thru slack current conditions with no set, and the heading and course over ground vectors aren’t on top of each other, consider requesting a technician to assist in correcting these input errors.
+
+AIS is generating a GPS over the ground solution based on your and the other vessel’s GPS generated COG, and isn’t applying the interactions of currents into the calculation. A properly aligned and tuned radar and visual assessment with your eyes thru the windows are to be trusted. Avoid ECS enhanced collisions due to misaligned electronics and potential AIS errors.
+Glas Navigation, LLC
+Share to Print
+Share to Email
+Share to Facebook
+Share to LinkedIn
+More AddThis Share options

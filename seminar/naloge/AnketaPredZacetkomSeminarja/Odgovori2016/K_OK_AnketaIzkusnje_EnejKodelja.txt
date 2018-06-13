@@ -1,0 +1,34 @@
+﻿LEN-ODGOVORI NA VPRAŠANJA ANKETE
+
+A) Ali ste doslej opravili kakšno meritev v naravi?
+(opis v enem stavku)
+V naravi sem opravljal razne lažje meritve kot je temperatura zraka/vode, pritisk v zraku, merjenje sladkrja grozdja,...
+
+B) Ali znate izrisati graf iz podatkov v digitalni obliki?
+(kaj znate in s katerim orodjem v enem stavku)
+Da, znal bi narisati graf v digitalni obliki z računalniškim programom excel.
+FD: Iz priloženih podatkov čimprej narišite v Excelu graf odvisnosti Yaw (13. stolpec) od časa (1. stolpec). 
+Upoštevajte, da imate namesto podatka o času števnik stotink sekunde, vi boste pa risali čas v minutah in sicer prvih 20 minut.
+OK!
+
+C) Katero elektronsko napravo uporabljate po navodilih?
+(če več, zapišite - za najzahtevnejšo - kaj znate z njo, 2 stavka)
+Refraktometer- je naprava ki meri količino sladkorja v grozdni jagodi. Na refraktometer damo kapljico grozdnega soka, nato malo počakamo ter pogledamo skori refraktometer proti svetlobi. Vidni bodo trije stoplci kateri nam kažejo kolicino sladkoraj v grozdju.
+Navodila potrebujem pa zato da odčitam koliko sladkorja je prisotnega iz stolpcev, ki nam jih izriše refraktometer.
+
+Č) Ali imate že praktične izkušnje s plovbo / kaj znate?
+(opišite v enem stavku: jadranje, veslanje, imam izpit za voditelja čolna, opravil plovbo - kot dijak na praksi - kot kadet - kot asistent - kot častnik krova ali stroja, navedite tip ladje/plovila, ...,.. / znam privezovati čoln, ...)
+Imam nekaj izkušenj z plovbo, ki sem jih pridobil v 1. letniku študjiskega programa pri predmetu mornarske veščine ter pri jadranju.
+Znam privezati čoln, krmo, premec, pritrditi bokobrane, opraviti vse potrebno pri izplutju in vplutju (pripraviti plovilo, vrvi).
+
+D) Opišite posebne želje, kaj si želite delati v seminarski nalogi. 
+(največ 2 stavka)
+Od podanih tem za seminarsko nalogo sta me najbolj pritegnila dva naslova med katerimi se bom odlocal in sicer "Iskanje podane točke v prostoru, kartiranje slanosti, temperature, globine in prosojnosti" ter "Opazovanje vesoljskega vremena"
+
+ENEJ KODELJA , 2.NAV
+
+
+
+
+
+

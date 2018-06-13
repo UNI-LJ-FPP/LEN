@@ -1,0 +1,16 @@
+﻿predmet: L E N 
+
+TEME SEMINARSKIH NALOG:
+=======================
+za podrobnosti glej navodila za vaje: 
+
+1. Čas v podatkih na morju
+2. Rekonstrukcija manevriranj iz podatkov MEMS
+3. Iskanje podane točke v prostoru, kartiranje slanosti, temperature, globine in prosojnosti
+4. Preizkus vrtavčnega kompasa in poskusna plovba
+5. Opazovanje vesoljskega vremena
+6. Omejitve GNSS v praksi
+7. Dodatna naloga po izboru dr. A. Grma
+8. Dodatna naloga po izboru kap. D. Jagnjića
+9. Dodatna naloga po izboru dr. F. Dimca
+

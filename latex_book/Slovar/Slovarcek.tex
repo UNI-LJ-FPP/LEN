@@ -1,0 +1,179 @@
+\chapter*{Slovar pogosteje uporabljenih izrazov}\label{Ch_Slovar} \pagestyle{plain}
+      \addcontentsline{toc}{chapter}{Slovar pogosteje uporabljenih izrazov}
+
+
+Strokovni in žargonski izrazi s podroèij geofizike, geodezije, navigacije, meroslovja in elektrotehnike so zbrani na enem mestu, da je besedilo naloge bolj razumljivo.
+
+\begin{description}
+\item [almanah] podatki (zgolj Keplerjevi elementi) za izraèun položajev nebesnih teles (po\-sa\-mez\-nih satelitov v primeru GNSS) v doloèenem trenutku, vrednosti so zapisane v dvojiškem sistemu s 16 biti \cite{1999-FarellBarth-GPSINS}
+\item ['ambiguity'] (ang.  'celoštevilèna nedoloèenost') podatek, ki pove, èe je doloèitev neznanega števila celih valovnih dolžin $\lambda$ med satelitom in sprejemnikom GPS $N$ zanesljiva ali ne, podatek ima v izhodnih podatkih sprejemnika GPS le stanji 'da' ali 'ne': stanje 'da' pomeni, da je število $N$ celih $\lambda$ iz opazovanj zanesljivo doloèeno; èe je 'ambiguity' zdržala za vse satelite tekom opazovanja, lahko prièakujemo, da je z meritvijo prièakovana natanènost dosežena. Zanesljiva doloèitev števila celih valov (ang.  'resolving the ambiguity') je plod matematiène obravnave psevdorazdalj. 
+\item [augmentacija] imenovana tudi diferencialno popravljanje, je metoda za popravljanje psevdorazdalj in rezultatov meritve faz nosilnega signala z uporabo podatkov z referenène postaje.
+\item [azimut] zasuk v vodorani ravnini, med doloèeno smerjo, pravokotno na smer težnostnega pospeška, in zemeljskim poldnevnikom
+%\item [BPSK] 
+\item [ang.  'C/A code'] standardno psevdonakljuèno zaporedje GPS je zaporedje 1023 binarnih modulacij na nosilnem signalu GPS s frekvenco 1023 MHz, znano je pod imenom 'civilna koda', 'coarse'  pomeni grobo doloèitev položaja, 'acquisition' pa je izraz za doloèitev položaja iz vojaškega žargona. %Vojaški sprejemniki GPS uporabljajo psevdonakljuèno zaporedje C/A za zaèetni grobi priklop na signal GPS, preden preidejo na višji nivo zaporedja P.
+\item [ang.  'code phase GPS'] faza psevdonakljuènega zaporedja C/A, meritve èasov se izvajajo na podlagi merjenja faze zaporedja C/A 
+\item [ang.  'carrier phase GPS'] meritve GPS na podlagi faz nosilnih signalov ($L_1$ ali $L_2$ ali kombinacije obeh) 
+\item [ang.  'clock bias'] odstopanje med èasom, ki ga kaže doloèena ura, in dejanskim univerzalnim èasom (UT1)   
+
+\item [detajlna toèka] je oznaka toèke, na kateri izvajamo 'detajlnejša' statièna opazovanja, na primer na krajišèih trajektorije metode 'stop \& go'.
+
+\item [DMR] (digitalni model reliefa) - kartiranje površinskih oblik v 3D okolju za potrebe  arheološke dokumentacije in interpretacije kakor tudi za potrebe topografske korekcije geofizikalnih raziskav.
+
+\item [dRMS] efektivna vrednost radialne razdalje velikega števila odèitkov do prave vrednosti (glej tudi istopomenko rms). Obmoèje 2dRMS po definiciji vsebuje 95 \%  vseh odèitkov. Elipsa  95 \% zaupanja predstavlja razširjeno obmoèje standardne elipse zaupanja, poveèane s faktorjem 2,447 \cite{NavodiloGeodetom-2006}.
+
+\item [efemeride] preglednica z zabeleženimi napovedanimi položaji nebesnih teles {\bf v koordinatnem sistemu ITRS ali ICRS} za doloèeno èasovnno obdobje (vsaj za 1 h), vrednosti so zapisane v dvojiškem sistemu z 32 biti 
+(glej \cite{1999-FarellBarth-GPSINS} oz. \cite{2003-HofmannWellenhof-Springer} str. 49), ki so kot 'broadcast ephemerides' del podatkov v sporoèilu s satelita GPS sprejemniku (negotovost položaja satelita reda velikosti 1 m) ali pa jih za zelo natanène naknadne obdelave kot 'precise ephemerides' (negotovost med 0,05 m in 0,20 m) uporabnik lahko dobi od IGS.
+\item [EGNOS] sistem geostacionarnih satelitov za doloèanje popravkov GPS in GLONASS. Preizkusni EGNOS \textit{System Test Bed} deluje od leta 2001; v vesolju \textit{Integration Test SIS} od aprila 2003; preizkusno obdobje operabilnosti (\textit{Oper. Eval. Phase}) od 2004; uradno v brezplaèni javni uporabi (\textit{Open Service}) od 1. oktobra 2009 za vse oblike uporabe, ki ne vplivajo na varnost ljudi.
+
+\item [elipsoid] geometrijsko telo, katerega ravninski preseki vzdolž ene osi so elipse, ravninski preseki vzdolž ostalih osi so elipse ali krogi (rotacijski elipsoid).
+  
+\item [epoha] èasovno obdobje, v katerem sprejemnik GNSS opravi en izraèun položaja in koordinate in za katerega tudi izpiše vrednost opazovanja oz. izmere na izhodni enoti. Epoha lahko znaša od delèka sekunde (za kinematièna opazovanja, gibanja hitrih objektov, na primer vozil) do meseca, leta (za kinematièna opazovanja gibanja poèasnih objektov, na primer litografskih plošè).
+\item [ETRS 89] kratica imena evropskega terestriènega referenènega sistema iz leta 1989; gre za evropski geocentrièni geodetski datum oz. elipsoid, sprejet s strani EUREF; temelji na GRS 80; letnica predstavlja trenutek oziroma epoho (1989,0), v kateri je ta geodetski datum sovpadal z ITRS 89; je temelj novega slovenskega koordinatnega sistema z oznako ESRS/D96.
+
+\item [faza nosilnega signala] (tudi \textit{faza nosilca}) poznamo dve vrsti sprejemnikovih meritev, ki jih sprejmnik izvaja na satelitovih nosilnih signalih. Nekateri sprejemniki uporabljajo nosilni signal tudi kot signal za doloèanje razdalje, s katerim razrešuje 'ambiguities' števila ciklov nosilnega signala. %'Delta-range' je v kratkem intervalu akumuliran signal zaradi Dopplerjevega pojava, ponavadi eno sekundo. Je primarni za doloèitev relativne hitrosti. 
+
+\item [geodetska dolžina] kotna razdalja med ravnino z geodetskim prvim poldnevnikom in ravnino skozi poldnevnik opazovane toèke. %Angular distance between the plane of the geodetic prime meridian and the plane of a point’s geodetic meridian.
+\item [geodetska širina] kotna razdalja v ravnini geodetskega ekvatorja in normale na toèko na elipsoidu. %Angular distance between the plane of the geodetic equator and the normal to a point on the earth ellipsoid.
+\item [geodetska toènost] toènost doloèitve položaja glede na geodetske koordinate na Zemlji (definicija IMO).
+\item [geodetski datum] nabor parametrov (referenènega elipsoida), ki specificirajo referenèni koordinatni sistem za geodetski nadzor nad preraèunavanjem koordinat toèk na zemlji (definicija ISO). %A set of parameters specifying the reference coordinate system used for geodetic control in the calculation of coordinates of points on the earth (ISO).
+Predstavlja zvezo med referenènim terestriènim in referenènim lokalnim koordinatnim sistemom, v katerem so narisane lokalne karte oz. zemljevidi. Datum sestavlja nabor dogovorjenih transformacij.  
+
+\item [geološko kartiranje] je pomemben del geoarheološke raziskave za ugotavljanje izvornega obmoèja razliènih surovin v arheološki preteklosti.
+
+\item [geoid] predstavlja ekvipotencialno ploskev težnostnega polja zemlje, ki v najveèji možni meri predstavlja približek srednje višine gladine morja. Površina geoida je povsod pravokotna na smer težnostnega pospeška, zaradi èesar je telo geoida nepravilne oblike. Zbirka meritev težnostnega polja Zemlje vsebuje anomalije težnostnih polj oceanov iz satelitskih meritev višine (satelitska altimetrija), modeliranje potenciala težnostnega polja in rezultate površinskih opazovanj težnosti na kopnem.
+\item [geografska toènost] toènost doloèitve položaja glede na geografske koordinate na Zemlji (definicija IMO).
+
+\item [inercialna navigacija] navigatorji GPS zaznavajo signale, ki jih oddajajo sateliti. Popolnoma drug smisel navigacije pa je zaznavanje linearnih pospeškov in kotnih zasukov relativno na inercialni sistem in seštevna navigacija z akumuliranjem podatkov s senozorjev v raèunalniku. 
+\item [inercialni koordinatni sistem] sistem koordinat, v katerem je pospešek zanemarljiv - miruje ali se giblje s konstantno hitrostjo
+\item [inercialni navigacijski sistem] je sistem, ki deluje po naèelih seštevne navigacije (\cite{2007-Bhatti-PhD} str. 80), samovodljivi sistem, popolnoma neodvisen od zunanjih vizualnih in elektronskih informacij, sestavlja ga poseben giroskopsko stabilizirani (ang.  'gimballed') ali magnetometrsko/giroskopsko stabilizirani (ang.  'strapdown') merilnik pospeškov z nepomiènimi senzorji, ki meri velikost pospeška v oseh izbranega koordinatnega sistema.
+\item [ang.  'Inertial Measurement Unit'] IMU je skupina instrumentov (gi\-ro\-sko\-pov in po\-speš\-ko\-me\-trov) za merjenje kotne hitrosti v treh oseh in linearnega pospeška v treh oseh.  IMU vsebuje senzorske elemente, elektroniko, in ponavadi procesor (raèunalnik), ki vodi kalibracijo ter kompenzacijo odstopanj senzorjev. 
+\item [ang.  'Inertial Navigation System'] INS poleg IMU vsebuje tudi raèunalnik za izvajanje seštevne navigacije iz rezultatov IMU (raèunanje težnostnega pospeška in dvojno integriranje za zagotavljanje ocene položaja merilnega instrumenta). V splošni rabi izraz INS povzema vse pojme, povezane z inercialno navigacijo.
+\item [inicializacija GPS] visoka kakovost doloèitve koordinat na osnovi faznih opazovanj temelji na zanesljivi doloèitvi števila celih valov. Pri kinematiènih metodah je neznano število celih valov doloèeno z inicializacijo v zaèetnem trenutku opazovanj in je konstantno v èasu neprekinjenih opazovanj. V primeru prekinitve sprejemanja signalov (npr. ovire) je treba inicializacijo ponoviti (tj. ponovno doloèiti neznano število celih valov).
+
+
+\item [integrirani navigacijski sistem] je sistem, v katerem se ves èas meritve (opazovanja) kombinirajo informacije z dveh ali veèih navigacijskih orodij za zagotovitev izhodnih vrednosti, ki so po toènosti in zanesljivosti superiorne vrednostim kateregakoli od posameznih uporabljenih orodij (definicija IMO).  
+% A system in which the information from 2 or more navigation aids is combined in a symbiotic manner to provide an output which is superior to any one of the component aids (IMO).   
+\item [integriteta] zmožnost sistema samopreverjanja, s èimer zagotavlja uporabnikom opozorila v obdobjih, ko ne sme biti uporabljan za navigacijo (definicija IMO).
+\item ['integrity risk'] verjetnost, da bo uporabnik sistema doloèil položaj z napako, veèjo kot znaša dopustna (prièakovana) vrednost napake, ne da bi ga sistem v dogovorjenem èasu od nastanka vzroka za napako na napako opozoril. Sistem zagotavlja informacije za predpisano obmoèje nadzora (definicija IMO). Znaèilna vrednost omenjenega tveganja je $10^{-7}$.   
+%Probability that a user will experience a position error larger than the threshold value without an alarm being raised within specified time-to alarm at any instant of time at any location within the coverage area (IMO). A typical figure is 10-7.
+
+\item [interval zaupanja, standardni] obièajen naèin podajanja razpršenosti enorazsežne populacije (npr. natanènosti koordinate). Interval je podan s polovièno dolžino, ki jo doloèa standardni odmik (s); gre za interval, znotraj katerega se nahaja 68,3 \% vseh sluèajnih spremenljivk iz enorazsežne populacije (npr. koordinat toèke) \cite{NavodiloGeodetom-2006}.
+\item [interval zaupanja, 95 odstotnega] standardni interval zaupanja, poveèan s faktorjem 1,960; gre za interval, znotraj katerega se nahaja 95 \% vseh sluèajnih spremenljivk iz enorazsežne populacije, npr. koordinat toèke \cite{NavodiloGeodetom-2006}.
+
+
+\item [izmera] s standardnimi geodetskimi postopki pridobljena navigacijska rešitev, praviloma položaja toèke na površini zemlje v lokalnem geodetskem sistemu
+
+\item [ITRF 2007] kratica imena za mednarodni terestrièni referenèni sestav (iz ang.  International Terrestrial Reference Frame 2007); letnica predstavlja trenutek oziroma epoho (2007,0), na katero se sestav nanaša; gre za zadnjo izmed nizov realizacij (ITRF 89, 90, 91, 92, 93, 94, 96, 97,..); v tem sestavu se izraèunavajo natanène tirnice satelitov za naknadno obdelavo opazovanj \cite{NavodiloGeodetom-2006}.
+
+\item [ITRS 89] kratica imena mednarodnega terestriènega referenènega sistema iz leta 1989; gre za mednarodni geocentrièni geodetski datum oz. elipsoid, mednarodno sprejet v IERS; glejte tudi ETRS 89.
+
+\item [izpad rešitve] (ang.  'outage') oznaka obdobja, v katerem je doloèanje položaja z GPS v zagotovljenih okvirih nemogoèe zaradi premajhnega števila satelitov nad obzorjem, prevelikega DOP ali premajhnega razmerja signal šum.
+
+\item [Kalmanovo filtriranje] Kalmanov filter je v osnovi postopek ocenjevanja stanj v linearnem sistemu, v èigar izmerjenih rezultatih nastopa nakljuèni šum. V realnem èasu lahko izvaja primerjavo dveh med seboj neodvisnih rezultatov, na primer: rezultate inercialne navigacije z rezultati satelitske navigacije ter bedi nad neskladji rezultatov. Iz znaèilnih oblik neskladij prepoznava razne mehanizme napak. Filter prepoznava napake senzorjev in same navigacije ter zagotavlja popravke, s katerimi sistem kontinuirano ostaja v 'ravnotežju'. Kalmanov filter zagotavlja izrabo do trenutka izraèuna akumuliranih podatkov vseh senzorjev. 
+\item [korelacija] je matematièni postopek, s katerim opišemo stopnjo ujemanja dveh enakih ali razliènih signalov, ki sta med seboj fazno ali èasovno zamaknjena. Opis stopnje ujemanja v odvisnosti od faze doloèa korelacijska funkcija dveh periodiènih signalov.  
+\item [merilna toènost] ujemanje merilnega rezultata s pravo vrednostjo merjene velièine 
+\item [merilna negotovost] parameter, ki se nanaša na merilni rezultat, oznaèuje raztros vrednosti, ki jih je mogoèe upravièeno pripisati merjeni velièini, lahko predstavlja n-kratnik standardnega odmika ali polovièno širino intervala z doloèeno stopnjo zaupanja
+\item [merilni pogrešek] (ang. 'error') izmerjena vrednost minus prava vrednost, v praksi namesto prave uporabljamo dogovorjeno pravo vrednost 
+\item [merilni instrument] imenujemo prenašani ali vleèeni predmet, ki mu v disertaciji s pomoèjo senzorjev doloèamo položaj
+
+\item [metoda daljinskega zaznavanja] je ena od metod, za katero natanènost pod 0,5 m ni potrebna, je težko dosegljiva ali predraga. Primeri metod so terestrièna, letalska fotogrametrija in satelitski posnetki (QuickBird 2), vse prilagojene za potrebe arheoloških raziskav.
+
+\item [metoda 'stop \& go'] je metoda GNSS-izmere, ki je v osnovi lahko kinematièna ali RTK-metoda, posebnost je le naèin izmere na detajlnih toèkah. Na detajlni toèki se ustavimo (faza 'stop') in izvajamo opazovanja od nekaj sekund do nekaj minut. Ta opazovanja služijo za izraèun srednjih vrednosti koordinat toèke. Nato pa se prestavimo na naslednjo detajlno toèko (faza 'go'). Metoda je primerna za najrazliènejše geodetske naloge, od detajlne izmere do nalog inženirske geodezije.
+
+\item [metoda RTK ] izmere GNSS je v osnovi kinematièna metoda izmere, pri èemer se obdelava podatkov izvaja v èasu izmere in tako že med samo izmero pridobimo podatke o položaju, vkljuèno s kakovostjo doloèitve položaja. Uspešnost metode temelji na zanesljivosti doloèitve neznanega števila celih ciklov v zaèetnem trenutku opazovanj $N$. Metoda je primerna za najrazliènejše geodetske naloge od detajlne izmere do nalog inženirske geodezije, med katerimi je zelo pogosta metoda 'stop \& go' \cite{NavodiloGeodetom-2006}.
+
+\item [naklon] (ang.  'pitch') 'zibanje naprej/nazaj', zasuk osi 'naprej' glede na njeno projekcijo na ravnino $(\vec{1}_{N},\vec{1}_{E})$, zasuk oznaèujemo s $\theta$
+
+\item [navigacija] je pomensko povzeta v veè definicijah. Dve najpogosteje navedeni sta: 'z n. toèno doloèamo položaj in hitrost glede na znano referenèno vrednost' in (American Practical Navigator) 'n. je 'proces naèrtovanja, pomnenja in vodenja vozila ali plovila z enega mesta na drugo'. Izpolnitev naloge, zajete v prvi definiciji, je potrebna za doseganje naloge v drugi definiciji.
+  
+\item [navigacijska rešitev] v disertaciji predstavlja položaj merilnega instrumenta v izbranem koordinatnem sistemu oz. sestavu   
+
+\item [obnovljivost merilnih rezultatov] (ang. 'reproducibility') ujemanje merilnih rezultatov iste velièine pri spremenjenih pogojih merjenja 
+\item [odmik] (ang. 'deviation') vèasih poimenovan tudi odklon, izmerjena vrednost minus referenèna vrednost, primerjaj z merilni pogrešek.
+\item [odstopanje] (ang. 'bias') je sistematièni pogrešek merilnega instrumenta (merilne verige)
+
+\item [odèitek] (ang. 'fix') praviloma en podatek o položaju z zemljepisno širino, dolžino, višino (nad referenènim elipsoidom), geodetskim datumom, vkljuèujoè podatek o èasu
+%A single position with latitude, longitude (or grid position), altitude (or height), time, and date.
+
+\item [os naprej] (ang. 'heading') os v smeri gibanja objekta, $u_x$, ostali osi sta še 'athwart' in 'heave'
+\item [os vstran] (ang. 'athwart') preèna os na smer gibanja objekta v vodoravni ravnini, pravokotna na os 'naprej', $u_y$
+\item [os navzgor] (ang. 'heave') vzdolž (navpiène) osi, pravokotna na os 'naprej' in 'vstran', $u_z$
+\item [os navzdol] (ang. 'to the bottom') vzdolž (navpiène) osi, pravokotna na os 'naprej' in 'vstran', $-u_z$
+%\item ['fore', 'aft'] na premcu, na krmi
+
+\item [Lightsquared] FCC granted a company named LightSquared Subsidiary LLC the exclusive right to provide so-called Fourth-Generation/Long Term Evolution (4G/LTE) broadband mobile communications services in a band ranging from 1525 to 1559 MHz. This band has a long-standing designation for space-to-earth links for mobile satellite services, but LightSquared obtained a broad waiver to build a dense network of high-power ground transmitters known as ancillary terrestrial components or ATCs. Because this swath of spectrum borders the lower end of the GNSS L1 band, where civil and military GPS signals now operate, the FCC has established a working group led by LightSquared to investigate whether the ATC transmissions might interfere with GPS.
+
+\item [platforma] pomeni v navigaciji izraz za podlago, na katero so pritrjeni navigacijski senzorji. V disertaciji podlago za pritrditev predstavlja ohišje merilnega instrumenta. %V giroskopsko stabiliziranih sistemih, kardansko vpeta platforma omogoèa obrnitev pospeškometrov vedno v prvotno nastavljeno smer, ne glede na obraèanje 'navigiranega telesa', medtem ko se v sistemu z nepomiènimi senzorji obraèa skupaj z 'navigiranim telesom'.
+\item [ponovljivost merilnih rezultatov] (ang. 'repeatability') ujemanje rezultatov iste merjene velièine, opravljene pod enakimi pogoji merjenja
+\item [ang. 'position DOP'] kratica za vrednost, ki se nanaša na kakovost doloèitve položaja; izraža razmerje med napako položaja sprejemnika in napako položajev satelitov – geometrijsko je to vrednost, ki je obratno sorazmerna volumnu štiristrane piramide, ki jo tvorijo sprejemnik in štirje sateliti, ki so v èasu meritev nad obzorjem razporejeni najugodneje \cite{NavodiloGeodetom-2006}.
+\item [pozib] (ang. 'roll'), 'boèno pozibavanje', zasuk osi 'vstran' glede na njeno projekcijo na ravnino $(\vec{1}_{N},\vec{1}_{E})$, zasuk oznaèujemo s $\phi$
+%\item [grupna zakasnitev]  (ang.  'group delay')  ...    
+%\item [vzorec:] manj"si del materiala za eno meritev
+\item [prospekcije] metode, ki v arheogeofizikalni praksi ohranjajo pregledano zemljišèe neokrnjeno oz. {\em in situ}
+
+\item [postopek GNSS, avtonomni] radionavigacijsko doloèanje položaja z enim samim sprejemnikom 
+\item [postopek GNSS, diferencialni] radionavigacijsko doloèanje položaja s pomoèjo kompenzacije napak z veè sprejemniki: popravke položaja, dobljene z referenènega sprejemnika, gibajoèi se sprejemnik sproti odšteva  
+\item [postopek GNSS, relativni] radionavigacijsko doloèanje položaja z baznimi vektorji oz. s pomoèjo kompenzacije napak z obdelavo faze nosilnih signalov veè sprejemnikov (enojne, trojne diference) ali samo z enim sprejemnikom (dvojne diference, kompenzacija odstopanja èasa sprejemnikove ure) 
+\item [premerjanje, geodetsko] (ang.  'surveying') pojem, povezan z natanèno navigacijo: ponavadi obsega doloèanje položaja, medtem ko navigacija obsega poleg doloèanja položaja še doloèanja hitrosti in usmerjenosti premikajoèih se objektov. Loèevanje doloèanja položaja na 'natanèno z naknadnimi obdelavami' (premerjanje) in na 'manj natanèno sprotno' (navigacija) postaja zradi napredka tehnologije poèasi stvar preteklosti.      
+\item [prostor faz] je prostor, v katerem so predstavljena vsa možna stanja in vsako možno stanje sistema ustreza eni sami toèki v prostoru stanj. V mehanskih sistemih fazni prostor ponavadi sestavljajo vse možne vrednosti položajnih in momentnih spremenljivk. Sliko položajnih in momentnih spremenljivk kot funkcije èasa vèasih imenujemo prikaz faz ali fazni diagram. % wikipedia: is a space in which all possible states of a system are represented, with each possible state of the system corresponding to one unique point in the phase space. For mechanical systems, the phase space usually consists of all possible values of position and momentum variables. A plot of position and momentum variables as a function of time is sometimes called a phase plot or a phase diagram.
+\item [prostor stanj] (v teoriji vodenja) predstavitev s prostorom stanj je matematièni model fizikalnega sistema kot nabora vhodnih, izhodnih spremenljivk ter spremenljivk stanja, povezanih z diferencialnimi enaèbami prvega reda. Abstraktne spremenljivke ponazorimo z vektorji, diferencialne in algebrajske enaèbe pa zapišemo v matrièni obliki. Zapis v matrièni obliki je mogoè zaradi linearnosti in èasovne nespremenljivosti opisovanega dinamiènega sistema. % wikipedia: in a state space representation is a mathematical model of a physical system as a set of input, output and state variables related by first-order differential equations. To abstract from the number of inputs, outputs and states, the variables are expressed as vectors and the differential and algebraic equations are written in matrix form (the last one can be done when the dynamical system is linear and time invariant). 
+\item [psevdolit] (ang.  'pseudolite') radijski oddajnik, ki oddaja enak signal kot pravi sateliti GNSS in je uporaben za doloèanje položaja. 
+\item [psevdonakljuèno zaporedje] (ang. 'pseudorandom noise', PRN) signal, ki ima lastnosti nakljuènega šuma, zapleten in ponavljajoè se vzorec v dvojiškem zapisu. 
+\item [psevdorazdalja] (ang. 'pseudorange') izraz, ki predstavlja približek oddaljenosti radionavigacijskega satelita od sprejemnika. Približek je izraèunan iz toènega èasa oddaje in ob upoštevanju pogreška (sprejemnikove ure) èasa sprejema ob (v zaèetku izraèuna neznanem) odstopanju èasa v sprejemnikovi uri od satelitskih ur oz. merjenje dolžin iz primerjave satelitskega in sprejemnikovega psevdonakljuènega zaporedja, ki še ni popravljeno zaradi uèinkov napak v sinhronizaciji obeh ur. %Je rezultat sprejemnika GPS, s katero izmeri oddaljenost do satelita, vštevši tudi odstopanji sprejemnikove in satelitove ure. Sprejemnik izvaja meritve s preraèunavanjem (zaklenitvijo) posebnih zaporedij v satelitovem signalu. Psevdorazdaljo sprejemnik izmeri z generiranjem dvojnika satelitovega zaporedja in njegovim tolikšnim faznim zamikanjem, da se generirani dvojnik in sprejeti izvirnik skladata.  
+\item [psevdorazdalja iz faze] omogoèa ob primerni izbiri naèina dela GPS toènost v milimetrskem podroèju, nedoloèena na cele valovne dolžine (ang.  'integer ambiguity')
+\item [psevdorazdalja iz zaporedja] omogoèa ob primerni izbiri naèina dela GPS toènost v metrskem podroèju, praktièno brez nedoloèenosti, toènost možno izboljšati z glajenjem (ang.  'smoothing') ali posebnimi rešitvami v sprejemniku
+
+
+\item [ang.  'Receiver Aiding'] nadalje pretvarja kotne hitrosti in pospeške, izmerjene s skupino instrumentov znotraj IMU v zamike frekvenc GPS, s èimer omogoèa sprejemniku GPS, da ne izgublja sklenjenosti zanke izraèunavanja položaja tudi v pogojih veèje dinamike in šuma.
+\item [rekurzivno glajenje]  rekurzivni gladilnik  (ang.  'recursive smoother')  deluje v postopku naknadne obdelave. Nadgrajuje Kalmanov filter z najboljšo izrabo vseh zabeleženih podatkov senzorjev v èasu enega opazovanja, tako da zaporedoma izraèuna vsako toèko trajektorije kot rezultat opazovanja. Pogosto se glajenje napaèno izvaja zgolj kot branje podatkov senzorjev in ponovni zagon Kalmanovega filtra. Pri ponovnem zagonu pa so zabeleženi podatki celotnega opazovanja že preteklost. Zglajene trajektorije dajejo znaèilno bolj toèen posnetek dejanskih opazovanj od Kalmanovega filtriranja. %Smoothed trajectories are substantially more accurate. 
+
+\item [RMS] (ang. 'Root Mean Square') je obièajen naèin podajanja statistiène natanènosti oz. toènosti, povzema razpršenost rezultatov meritve (na primer doloèanja položaja v eni dimenziji, glej tudi istopomenko dRMS); odstopanje (ang.  'bias') je odšteto, zato predstavlja tudi približek standardnega odmika
+%Kratica za srednji kvadratni odklon (iz angl. Root Mean Square, tudi Mean Square Error); obièajen statistièni naèin podajanja natanènosti; predstavlja polovièno dolžino 68,3-odstotnega intervala zaupanja – glejte tudi standardni
+interval zaupanja; opazovanja, ki od srednje vrednosti odstopajo za veè od
+trikratnika te vrednosti, se obièajno obravnavajo kot grobe napake.
+
+\item [RTCM] Radio Technical Commission for Maritime service, skupno ime sklopa standardov za pomorsko navigacijo in satelitske tehnologije, med drugimi vkljuèuje tudi standard za diferencialni GNSS
+
+
+\item [senzor] oz. tipalo je element merilnega instrumenta, na katerega neposredno vpliva merjena velièina
+%\item [signal] je uèinek, ki se širi od (fizikalnega) objekta, in ga lahko zapišemo v matematièni obliki 
+\item [sila potiskanja] (ang. 'surge') sila, ki deluje vzdolž osi 'naprej'  
+\item [sila zanašanja] (ang. 'sway') sila, ki deluje vzdolž osi 'vstran'  
+\item [sila dviganja] (ang. 'lift') sila, ki deluje vzdolž osi 'navzgor'
+
+\item [skrenitev] (ang.  'yaw') zasuk projekcije osi 'naprej' na ravnino $(\vec{1}_{N},\vec{1}_{E})$ glede na smer sever oz. $\vec{1}_{N}$, zasuk oznaèujemo s $\psi$
+\item [seštevna navigacija] (ang.  'dead reckoning'/'deduced reckoning') pridobivanje informacij o premikanju s pomoèjo meritev z inercialnimi senzorji. Prvi izraz je ponavadi napaèno uporabljen, oba izraza v slovenšèini nadomešèamo z besedno zvezo seštevna navigacija. Obstajata dve osnovni možnosti seštevne navigacije: 1. meritev pospeškov in kotnih hitrosti za posodabljanje podatka o položaju, 2. raèunanje položaja iz radijskih (CW) signalov zemeljskih oddajnikov. Zavedati se moramo, da toènost izraèunov položaja s seštevno navigacijo zahteva periodièno popravljanje rezultatov, perioda popravljanj je odvisna od kakovosti senzorjev. 
+\item [sistemi, giroskopsko stabilizirani]  (ang.  'gimbaled') s kardanskim sklopom med platformo in geofizikalnim merilnim instrumentom omogoèajo pospeškometrom, da ostanejo usmerjeni vedno v prvotno nastavljeno smer, kljub obraèanju platforme (geofizikalnega merilnega instrumenta).
+\item [sistem, s pritrjenimi senzorji] (ang. 'strapdown') sistem, v katerem so senzorji zaradi toge zveze med platformo in merilnim instrumentom nepomièni, sistem se obraèa skupaj s platformo (geofizikalnim merilnim instrumentom). 
+\item [sklopitev GPS/INS ali INS/GPS] pomeni, da navigacijski postopek kombinira podatke sprejemnika GPS in enote INS.  Izraz GPS/INS ali INS/GPS pogosto zavaja, saj se zaradi 'tesnejše sklopitve rezultatov' v kombinaciji nahaja zgolj IMU in ne celoten INS.
+
+\item [standardna elipsa zaupanja] je obièajen naèin podajanja razpršenosti dvorazsežne populacije (npr. natanènosti para horizontalnih koordinat). Standardna elipsa zaupanja je podana s tremi parametri: veliko polosjo elipse ($a$), malo polosjo elipse ($b$) ter azimutom velike polosi ($\Theta$); gre za elipso, znotraj katere se nahaja 39,4 \% vseh parov sluèajnih spremenljivk iz dvorazsežne populacije (npr. parov koordinat toèke); glej \cite{NavodiloGeodetom-2006} in poglavje \ref{SubSec_2D3DMereTocnosti}.
+
+\item [standardni odmik] je zelo pogosta meja statistiène razpršenosti, predstavlja kvadratni koren variance (glej tudi sopomenki RMS in dRMS)
+
+\item [standardni odmik koordinat toèke] standardni odmik (horizontalnih) koordinat toèke, kvadratna sredina (kvadratni koren iz polovice vsote kvadratov standardnih odmikov obeh horizontalnih koordinat toèke); je najenostavnejša skalarna mera toènosti horizontalnih koordinat toèke.
+
+\item [standardni odmik koordinat toèke, posplošeni] standardni odmik (horizontalnih) koordinat toèke je geometrièna sredina obeh polosi standardne elipse zaupanja (polmer kroga s površino, enako površini te elipse); gre za skalarno mero natanènosti horizontalnih koordinat toèke, ki ji daje statistika prednost  \cite{NavodiloGeodetom-2006}.
+
+\item [TAI] mednarodni atomski èas, doloèen s primerjavo atomskih ur po svetu. Neobèutljiv na variacije kotne hitrosti Zemlje. Èasovna enota je sekunda SI, definirana kot ‘trajanje  9,192,631,770 period sevanja atoma cezija 133, ki nastane zaradi prehoda med dvema hiperfinima energijskima nivojema’. Poenostavljen odnos med èasi za navigacijo: TAI = èas (Loran) + $10s$ = èas (GPS) + $19s$ = UTC + $15s$. Trenutno GPS torej prehiteva UTC za 15 prestopnih sekund. % GLEJ http://leapsecond.com/java/gpsclock.htm
+\item [TEC] (ang.  'total electron content') znaèilnost ionosfere, gostota zaradi sonèevega sevanja nastalih prostih elektronov v ionosferi, podana za navidezni stolpec doloèene koordinate skozi celotno višino ionosfere, z osnovno ploskvijo $1\, m^2$ predstavlja koncentracijo elektronov vzdolž poti širjenja valovanja, zakasnitev signalov GPS je neposredno sorazmerna TEC.
+\item [toènost] je statistièna mera, ki podaja stopnjo ujemanja med ocenjeno oz. izmerjeno vrednostjo parametra in njegovo pravo vrednostjo.
+\item [UTC] mednarodni èas, trajanje ene sekunde v UTC popolnoma ustreza sekundi SI v TAI, toda UTC se razlikuje od TAI po skupnem številu preštetih sekund, ker UTC zaradi èasovno odvisne kotne hitrost Zemlje vnaša pozitivne ali negativne prestopne sekunde tako pogosto, da absolutna razlika med UTC in UT1 nikoli ne preseže $\pm$ 0,9 s. %GPS time differed by 13 leap seconds in Oct 2000, otherwise always within 100ns.
+\item [UT1] je popravljen UT0, pri èemer UTO pomeni povpreèni sonèni èas na poldnevniku skozi Greenwich, izmerjen z neposrednimi astronomskimi opazovanji. UT1 je enak UT0, popravljenemu zaradi vplivov polarne variacije. Polarna variacija (an. 'polar motion' \cite{2008-HofmannWellenhof-Springer}, str. 15) pomeni majhna nihanja Zemljine osi vrtenja. Za veèino uporabnikov UT0 zadostuje, ker je vpliv polarne variacije zanemarljiv. 
+%The mean solar time of the prime meridian obtained from direct astronomical observation and corrected for the effects of small movements of the earth relative to the axis of rotation (polar variation).
+\item [UTM] projekcija, v kateri je za dotikališèe med ravnino, na katero projiciramo zemeljsko površino in samo zemeljsko površino, uporabljen poldnevnik.  
+
+\item [veèpotje] ({\em {multipath}}) pojav, ki nastaja zaradi odbijanja valovanja z satelitov GNSS na raznovrstnih objektih. Valovanje se po odboju od objekta širi do antene sprejemnika GNSS in do nje opravi daljšo pot kot direktni val, ki se do sprejemnika GNSS širi neposredno s satelita.
+
+\item [WAAS] oznaka ameriškega satelitskega sistema za zagotavljanje popravkov opazovanj, uveljavila ameriško ministrstvo za promet (DoT) in ameriška zvezna uprava za letalstvo (FAA)
+\item [WGS84] ime svetovnega geodetskega sistema, v rabi za GPS  
+
+\item [zakasnitev, fazna] ({\em {phase delay}}) je v fazno linearnih sistemih (z neinvertirajoèim ojaèenjem) enaka grupni zakasnitvi oziroma tudi zakasnitvi sistema, za katerega je znaèilno, da njegov fazni zamik $\Phi$ linearno narašèa s frekvenco $\omega$. Fazno zakasnitev v splošnem smislu izraèunamo kot ulomek faznega zamika in frekvence z negativnim predznakom.
+\item [zakasnitev, skupinska]  ({\em {group delay}}) je mera èasa prehajanja signala skozi napravo ali skozi definirano obmoèje (npr. ionosfero) pri doloèeni frekvenci. Skupinska hitrost je pokazatelj fazne popaèitve, raèunamo jo kot odvod faznega odziva naprave oz. medija od frekvence. %Group delay is a measure of the transit time of a signal through a device under test (DUT), versus frequency. Group delay is a useful measure of phase distortion, and is calculated by differentiating the insertion phase response of the DUT versus frequency.
+
+%\item [ang.  'dillution of precision'] (DOP) faktor doloèanja napake merjenja dolžin, ki je posledica samo geometrijske lege satelitov GNSS, oz. brezdimenzijska velièina, ki vrednoti prispevek relativne geometrije razporeditve satelitov k napakam v doloèanju položaja
+
+%\item [Dopplerjev premik] sprememba frekvence signala zaradi relativnega premikanja satelita in sprejemnika
+\end{description}
+
+ 

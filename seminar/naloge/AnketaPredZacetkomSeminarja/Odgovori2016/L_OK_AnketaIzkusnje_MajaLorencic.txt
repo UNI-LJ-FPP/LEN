@@ -1,0 +1,35 @@
+LEN-ODGOVORI NA VPRAŠANJA ANKETE
+
+A) Ali ste doslej opravili kakšno meritev v naravi?
+(opis v enem stavku)
+Opravila sem meritev globine vode v jezeru z globinomerom
+
+B) Ali znate izrisati graf iz podatkov v digitalni obliki?
+(kaj znate in s katerim orodjem v enem stavku)
+b) graf znam izrisat s programom office excel v katerega vnesem podatke.
+B) Ali znate izrisati graf iz podatkov v digitalni obliki?
+(kaj znate in s katerim orodjem v enem stavku)
+b) graf znam izrisat s programom office excel v katerega vnesem podatke.
+FD: iz priloženih podatkov čimprej narišite v Excelu graf odvisnosti Pitch (12. stolpec) od časa (1. stolpec). 
+Upoštevajte, da imate namesto podatka o času števnik stotink sekunde, vi boste pa risali čas v minutah in sicer prvih 20 minut. 
+
+C) Katero elektronsko napravo uporabljate po navodilih?
+(če več, zapišite - za najzahtevnejšo - kaj znate z njo, 2 stavka)
+C) vse elektronske naprave uporabljamo po navodilih. Nazadnje sem po navodilih uporabljala nov televizor ter prenosni elektricni pekac.
+
+Č) Ali imate že praktične izkušnje s plovbo / kaj znate?
+(opišite v enem stavku: jadranje, veslanje, imam izpit za voditelja čolna, opravil plovbo - kot dijak na praksi - kot kadet - kot asistent - kot častnik krova ali stroja, navedite tip ladje/plovila, ...,.. / znam privezovati čoln, ...)
+Č) z plovbo se izkusenj nimam vemdar sem se na fakulteti naucila kako privezovati ladjo ter manevriranje z ladjo.
+FD: Izkušnje s privezovanjem so dobrodošle. Motorni čoln Slovenija ni ladja. Nisem spraševal po izkušnjah s simulatorjem ampak s plovbo. Verjetno ste poskušali obračati ladjo na simulatorju, kajne?  
+
+D) Opišite posebne želje, kaj si želite delati v seminarski nalogi. 
+(največ 2 stavka)
+d) v seminarski nalogi pricakujem cimvec prakticnega dela na prostem v naravi ter da delo opravljamo v skupini v kateri si potem medseboj razdelimo razlicne naloge ter na koncu podebatiramo o opravljenem delu.
+
+
+
+
+
+
+
+

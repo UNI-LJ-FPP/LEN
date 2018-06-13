@@ -1,0 +1,103 @@
+\documentclass[envcountsame,envcountchap]{svmono}
+
+% za pisanje v slovenščini direktno s šumniki in sičniki v UTF8
+\usepackage[slovene]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,latexsym}
+\usepackage{sidecap}
+\usepackage{wrapfig}
+\usepackage[export]{adjustbox}
+
+%https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions
+%https://www.sharelatex.com/learn/Positioning_images_and_tables
+
+
+% choose options for [] as required from the list
+% in the Reference Guide, Sect. 2.2
+
+\usepackage{makeidx}         % allows index generation
+\usepackage{graphicx}        % standard LaTeX graphics tool
+                             % when including figure files
+\usepackage{multicol}        % used for the two-column index
+\usepackage[bottom]{footmisc}% places footnotes at page bottom
+\usepackage{gensymb}
+
+%% hyper references
+\usepackage[colorlinks=false]{hyperref} 
+%\usepackage{hyperref} 
+%\usepackage{palatino}
+
+
+%
+%
+\newcommand{\entry}[4]{\markboth{#1}{#1}\textbf{#1}\ {(#2)}\ \textit{#3}\ $\bullet$\ {#4}}  % Defines the command to print each word on the page, \markboth{}{} prints the first word on the page in the top left header and the last word in the top right
+
+
+% etc.
+% see the list of further useful packages
+% in the Reference Guide, Sects. 2.3, 3.1-3.3
+
+\makeindex             % used for the subject index
+                       % please use the style svind.ist with
+                       % your makeindex program
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\selectlanguage{slovene}
+
+\author{Franc Dimc\\Darjan Jagnjić\\Aleksander Grm}
+\title{Ladijske elektronske naprave\\[3mm]\Large{1. izdaja}}
+\subtitle{Predavanja in vaje}
+\maketitle
+
+\frontmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{dedic}
+\include{pref}
+%\include{ackn}
+
+\tableofcontents
+
+
+\mainmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{part_predavanja}
+\include{Predavanja/01_Uvod/chP_Uvod}
+\include{Predavanja/02_KompasnoDolocSmeri/chP_KompasnoDolocSmeri}
+\include{Predavanja/03_ElektrDolocPolozaja/chP_ElektrDolocPolozaja}
+\include{Predavanja/04_ZemeljLastPolozaj/chP_ZemeljLastPolozaj}
+\include{Predavanja/05_SatLastPolozaj/chP_SatLastPolozaj}
+\include{Predavanja/06_DolocTujegaPolozaja/chP_DolocTujegaPolozaja}
+\include{Predavanja/07_PodOmrNMEA2000/chP_PodOmrNMEA2000}
+\include{Predavanja/08_PovzSodobNavigSist/chP_PovzSodobNavigSist}
+\include{Predavanja/09_PovzNapakInOdpravlj/chP_PovzNapakInOdpravlj}
+\include{Predavanja/10_PregledKomInGmdss/chP_PregledKomInGmdss}
+\include{Predavanja/11_SodobnoKrmarjenjeLadje/chP_SodobnoKrmarjenjeLadje}
+%\appendix
+%\include{appendix}
+\include{part_vaje}
+\include{Vaje/SplosnaNavod/chV_SplosnaNavod}
+\include{Vaje/CasPomorstvo/chV_CasPomorstvo}
+\include{Vaje/ManevrZMems/chV_ManevrZMems}
+\include{Vaje/OmejGnssPrak/chV_OmejGnssPrak}
+\include{Vaje/KartGlobSlan/chV_KartGlobSlan}
+\include{Vaje/VrtKompPlovb/chV_VrtKompPlovb}
+\include{Vaje/VesoljVreme/chV_VesoljVreme}
+\include{Vaje/VzorecPoroc/chV_VzorecPoroc}
+
+\include{Slovar/Izrazje_plain} %Izrazje je samostojno besedilo, ne kot del book 
+
+\backmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{solutions}
+\include{referenc}
+\printindex
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
+
+
+
+
+

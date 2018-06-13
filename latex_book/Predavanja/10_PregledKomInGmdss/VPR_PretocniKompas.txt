@@ -1,0 +1,52 @@
+ODGOVOR NA VPRAŠANJE ŠT.2:
+
+2.00 Hitrosti 1-2 Nm/s (6.700-13.400 km/h) ne zmore nobena ladja, èeprav ima dovolj prostora! 
+2.1 informacije o trenutni poziciji in popravkih (kakterih?)
+2.2 kompas meri kurz èolna, ne položaja (položaj dobite vi, tako kot na vajah, èe doloèate azimute na znane objekte)
+2.3 katere kompasove informacije uporabljajo radarji
+2.4 kateri drugi navigacijski sistemi še rabijo podatke kompasa?
+2.5 kaj je "žiroskopska mera"?
+2.6 kako si predstavljate, da sprejemnik GNSS popravi kompasu variacijo?
+2.7 Spomnite se neuspešne kalibracije MTi-ja na mizi med predavanji. Ni vse v hitrosti - kaj je še pomembno, da bo kalibracija uspešna?
+2.8 Kako pogosto kapitan priporoèa kalibracijo?
+2.9 Med kalibracijo (obraèanjem) .. the fluxgate will read the difference between the Earth’s 
+constant magnetic pull and the magnetic forces on board. Kako bi to prevedli?
+2.10 Pravilnosti kalibracije ne boste dosegli tako, da greste na eno toèko ampak, da kaj storite?
+2.11 Katere popravke vnesete v kompas in kako?
+
+Me veseli, da bi radi bolje razumeli.
+
+A) These components, enclosed in a plastic housing, represent the sensing unit. 
+Applying a signal to one wire will result in a voltage in the other wire. 
+The signal undergoes a phase shift due to the Earth's magnetic field; 
+the phase shift is indicative of the coil angle relative to the magnetic North Pole, 
+and the result is displayed digitally as the orientation of the compass. In other words, 
+when charged with electricity, the wire coils sense the horizontal component of the Earth's 
+magnetic field, and they sense angular changes in the field as the compass moves with the boat.
+
+Te komponente, zaprte v plastiènem ohišju, predstavljajo senzor. Èe se spremeni tok v žici 
+prve tuljave, se bo inducirala napetost v drugi tuljavi. Os tuljave, v kateri se inducira 
+napetost, je za nek kot (reciva mu alfa) premaknjena od smeri magnetnega meridiana. Ko pa je os 
+te tuljave popolnoma v osi magnetnega meridiana, pa je inducirana napetost najveèja. 
+Ko dobite v neki smeri najveèjo inducirano napetost veste, da je takrat os tuljave v smeri 
+mag. meridiana. Rezultate kompas digitalizira in prikazuje kot usmerjenost kompasa. 
+Z drugimi besedami,,ko se skozi žico ene tuljave spreminja tok (kapitan je že malo pozabil 
+na visokošolsko fiziko..., to ni bil znanstven èasopis) v magnetnem polju Zemlje, je srednja 
+vrednost inducirane napetosti u_i odvisna od kota, ki ga os tuljave oklepa z magnetnim meridianom. 
+Ko se ladja obraèa, se spreminja tudi kot med na ladjo pritrjeno osjo tuljave in meridianom  
+in zato srednja vrednost u_i. Torej s pretoènim kompasom zaznavamo obraèanje ladje. 
+
+B)
+The sensor detects minute changes in electrical voltage caused by a deflection of its 
+North/South orientation. In other words, it "senses" its position relative to the Earth's 
+magnetic poles and reports it, via hundreds of readings per second, to a microprocessor. 
+This device averages the readings to arrive at an accurate and steady electronic signal. 
+The signal is instantly dispatched to one or more digital  displays at the steering station(s), 
+and to autopilots and other instruments.
+
+Senzor zazna majhne spremembe v elektrièni napetosti, ki jih je povzroèil odklon osi tuljave 
+z inducirano napetostjo od magnetnega meridiana. Z drugimi  besedami, kompas "zaèuti" kolikšen 
+kot oklepa z lokalnim magnetnim meridianom in o tem poroèa veè stokrat na sekundo mikroprocesorju. 
+Ta naprava izraèuna povpreèje teh oèitkov in tako dobimo natanèen in zanesljiv elektronski 
+signal. Signal se takoj odpošlje na enega ali veè digitalnih zaslonov na krmilno postajo, in 
+avtopilotom in drugim instrumentom.

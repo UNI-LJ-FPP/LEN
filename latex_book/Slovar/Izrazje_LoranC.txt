@@ -1,0 +1,110 @@
+Acquisition Reception and identification of Loran-C signals from a master and selected secondaries to allow a measurement of time differences (TDs) to be made.
+ASF Additional Secondary Phase Factor. Factors caused by variation in the conductivity of the surface of the earth depending on whether the loran signal path is over land or sea. The factor could cause errors in the measured Loran-C position.
+
+Attenuation A reduction in signal strength of a signal as it travels further from its source. The signal could be travelling in free space or in a transmission line.
+
+Baseline That segment of a great circle that defines the shortest distance between a master and secondary station in a loran chain.
+
+Baseline extension The extension of a baseline beyond the master and secondary stations in a loran chain. Measurements in the region of a baseline extension should be avoided because of possible large measurement errors in that area.
+
+Blink An indication that the master or secondary signals received from a loran chain are out of tolerance and would not produce reliable measurements. There are
+both master and secondary blink conditions.
+
+
+
+
+
+Coverage diagram A diagram showing the coverage area for a particular master–secondary pair in a Loran-C chain.
+
+Cross track error See under XTE.
+Dual-rated (DR) A term used to indicate that a station in one Loran-C chain is also used in another Loran-C chain. The stations could be a master or a secondary
+station.
+
+Emission delay That time difference measured in microseconds between the emission of a signal from a master station and the emission of a signal from a specified
+secondary in that chain. The emission delay is the sum of the time taken for the master transmission to cover the baseline and the secondary coding delay.
+
+Envelope to cycle A time difference between the phase of a Loran-C carrier. difference (ECD) and the time origin of the pulse envelope waveform. ECD is zero when the 30-μs point of the Loran-C pulse envelope coincides in time with the third positive zero crossing of the 100-kHz carrier.
+
+Group repetition interval (GRI) That time interval between the start of a transmission from a master station in a Loran-C chain and the start of the next. Time is measured in microseconds and the chain is designated by its GRI value with the last zero term omitted, i.e. the North West Pacific chain has a GRI of 89 300 μs and the chain designation is 8930.
+
+IRQ Interrupt Request. A signal used in a microcomputer system to service an external device and which causes the current program to be interrupted to run a subroutine used to service the external device. Once the subroutine is finished the computer restores the original program and continues to execute it from the point where it was interrupted. The IRQ can be enabled/disabled according to the setting of an interrupt flag in the processor flag register.
+
+LCD Liquid Crystal Display. A form of display commonly used with Loran-C receivers. The display elements are typically dark coloured alphanumerics on
+a grey screen. The display is easily read, even in bright light conditions. LED Light Emitting Diode. A form of display with, typically, red alphanumerics on
+a dark background. Less popular than the LCD display and less easily read in strong light conditions.
+
+LOP Line of Position. In loran terms, a line where the time difference (TD) of signals received from the master and a specified secondary in a chain has a
+constant value.
+
+Loran Long range navigation. 
+
+Loran monitor site (lormonsite) A monitor site used to observe parameters of a transmitted signal as received in the coverage area.
+
+Master station The station in a Loran-C chain that transmits the signals identifying that chain (i.e. its GRI) and is the common base against which all time differences are established.
+
+MPU Microprocessor. That integrated circuit (IC) which forms the central processing unit (CPU) of a microcomputer.
+Nautical mile That unit of distance used at sea which is equivalent to 1852 metres.
+
+NECD Nominal ECD of a transmitting station.
+
+NEUS Northeast US chain. The Loran-C chain operating with a GRI designation of 9960.
+
+
+
+NMI Non-maskable Interrupt. Unlike the IRQ interrupt which can be enabled or
+disabled by the setting of an interrupt flag, the NMI cannot be disabled and
+must execute the appropriate service subroutine when activated by an external
+device.
+PCI Phase Code Interval. That interval over which the phase code repeats. For
+Loran-C, phase codes repeat every two GRIs.
+PF Primary Phase Factor. A correction factor applied to a Loran-C signal reading
+made necessary by the difference in signal propagation through the
+atmosphere as opposed to propagation in free space. The speed of Loran-C
+signals through the atmosphere is equal to the speed through free space
+divided by the atmospheric index of refraction. The speed is taken as
+2.996 911 62 × 108 ms–1.
+PRF/PRR Pulse Repetition Frequency/Pulse Repetition Rate. The number of pulses
+transmitted in a specified time. For the Loran-C system the PRF/PRR is given
+by the reciprocal of the GRI. Hence a chain with a GRI of 80000 μs would
+have a PRF/PRR of 12.5 Hz.
+Root mean square
+(RMS)
+That value of a time varying signal which has the equivalent heating effect to
+that of a d.c. quantity.
+Secondary coding
+delay
+That time interval in microseconds between when a secondary station receives
+the master transmission and a transmission occurs from the secondary
+station.
+Secondary phase
+factor (SF)
+That amount of time, in microseconds, by which the predicted time
+differences (TDs) of a pair of Loran-C station signals travelling over an allseawater
+path differ from those that travel through the atmosphere.
+Secondary station One of the possible maximum number of five stations that, together with the
+master station, comprise the Loran-C chain.
+
+Signal-to-noise ratio
+(SNR or S/N)
+The ratio of signal strength compared to the strength of electrical noise present
+with the signal in a given bandwidth. The coverage diagrams for Loran-C are
+calculated using an SNR of at least 1:3. SNR is often quoted in decibels (db)
+where the db value is given by 20log10(SNR) so that with an SNR of 1:3, the
+decibel value is –9.54, which is often approximated to –10db.
+
+Single-rated (SR) Those stations in a Loran-C chain which do not share transmissions with other
+chains. Compare with Dual-rated.
+Speed Rate of travel. For a vessel travelling relative to the water over a horizontal
+distance the speed of the vessel is measured in knots.
+Time difference (TD) In Loran-C, TD is the time difference in microseconds between the receipt of
+the master and secondary transmitted signals.
+Time to go (TTG) The time calculated to elapse before the next waypoint is reached. Time
+obtained by dividing distance to go by the groundspeed.
+Waypoint A point entered into a loran receiver and used as a reference point for
+navigational calculations. Planned voyages would have a series of waypoints
+indicating legs of the voyage. A modern Loran-C receiver is capable of
+storing multiple waypoints.
+XOR Exclusive-OR gate. A digital circuit that, for a two-input gate, only produces
+a logical 1 output when the two inputs are of opposite sign.
+XTE Cross-Track Error. That distance between the vessel’s actual position and the
+direct course between two specified waypoints.

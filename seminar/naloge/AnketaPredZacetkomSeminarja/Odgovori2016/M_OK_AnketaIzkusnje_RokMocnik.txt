@@ -1,0 +1,28 @@
+﻿A) Ali ste doslej opravili kakšno meritev v naravi?
+(opis v enem stavku)
+Pri predmetu narovoslovja smo morali opravljati meritve temperatur. 
+
+
+B) Ali znate izrisati graf iz podatkov v digitalni obliki?
+(kaj znate in s katerim orodjem v enem stavku)
+Znam izrisati vse vrste grafov in diagramov v exelu.
+
+C) Katero elektronsko napravo uporabljate po navodilih?
+(če več, zapišite - za najzahtevnejšo - kaj znate z njo, 2 stavka)
+Znam uporabljati multimeter. Z njim znam izmeriti tok, napetost in upornost. 
+FD Katera elektronska naprava je najzahtevnejša, ki jo uporabljate po navodilih?
+Najzahtevnejši se mi zdi ampermeter .
+FD Od vseh elektronskih naprav, ki ste jih doslej uporabljali v svojem življenju po navodilih, je najzahtevnejši ampermeter? 
+(Vaš telefon je neprimerno zahtevnejši...)
+FD Ali ste kdaj za uporabo računalnika prebrali navodila? Resno sprašujem: katera elektronska naprava je najzahtevnejša, za katero ste upoštevali navodila oz. priročnik? 
+Za veliko stvari na računalniku sem si že moral prebrati navodila na internetu oziroma pogledati kakšen videoposnetek kako se npr. namesti kakšen program oz. igraico, kako se spreminja kakšne nastavitve v operacijskem sistemu, itd. 
+
+Č) Ali imate že praktične izkušnje s plovbo / kaj znate?
+(opišite v enem stavku: jadranje, veslanje, imam izpit za voditelja čolna, opravil plovbo - kot dijak na praksi - kot kadet - kot asistent - kot častnik krova ali stroja, navedite tip ladje/plovila, ...,.. / znam privezovati čoln, ...)
+
+V pejšnjem letu sem obiskoval jadranje. Imam le osnovno znanje.
+
+D) Opišite posebne želje, kaj si želite delati v seminarski nalogi. 
+(največ 2 stavka)
+
+Želim si zabeleževati podatke, jih analizirati in prikazati v grafih, tabelah.

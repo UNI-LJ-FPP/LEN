@@ -1,0 +1,28 @@
+﻿hvala za odgovore. Ker odgovora C in Č nista čisto razumljiva, mi čimprej odgovorite:
+
+
+LEN-ODGOVORI NA VPRAŠANJA ANKETE
+A) Ali ste doslej opravili kakšno meritev v naravi?
+(opis v enem stavku)
+Nisem
+
+B) Ali znate izrisati graf iz podatkov v digitalni obliki?
+(kaj znate in s katerim orodjem v enem stavku)
+Ne vem
+
+C) Katero elektronsko napravo uporabljate po navodilih?
+(če več, zapišite - za najzahtevnejšo - kaj znate z njo, 2 stavka)
+Nisem
+FD: Predmet se imenuje Ladijske elektronske naprave. Ali niti ene naprave v življenju ne uporabljate po navodilih? 
+Nisem nobenu uporabljala (po navodilih) 
+
+Č) Ali imate že praktične izkušnje s plovbo / kaj znate?
+(opišite v enem stavku: jadranje, veslanje, imam izpit za voditelja čolna, opravil plovbo - kot dijak na praksi - kot kadet - kot asistent - kot častnik krova ali stroja, navedite tip ladje/plovila, ...,.. / znam privezovati čoln, ...)
+Imam sa Jadrenjem in veslanjem,ampak skupno v covnu ali jedrilici iz srednje sole.
+FD: Ali znate privezati čoln?
+Da.
+
+
+D) Opišite posebne želje, kaj si želite delati v seminarski nalogi. 
+(največ 2 stavka)
+Rekonstrukcija manevriranja iz podatkov MEMS

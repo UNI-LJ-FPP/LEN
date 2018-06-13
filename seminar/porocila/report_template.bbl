@@ -1,0 +1,30 @@
+\begin{thebibliography}{1}
+
+\bibitem{baker_1}
+C.J. Baker.
+\newblock Ground vehicles in high cross winds part i: Steady aerodynamic
+  forces.
+\newblock {\em Journal of Fluids and Structures}, 5(1):69--90, 1991.
+
+\bibitem{bird_et_all}
+A.J. Bird, G.S. Springer, R.F. Bosch, and R.L. Curl.
+\newblock Effects of surface morphologies on flow behavior in karst conduits.
+\newblock In {\em 15th International Congress of Speleology: Kerrville, Texas,
+  National Speleological Society}, pages 1417--1421, Kerrville, Texas, 2009.
+  National Speleological Society.
+
+\bibitem{openfoam}
+OpenFOAM.
+\newblock Openfoam - the open source cfd toolbox.
+\newblock \textit{www.openfoam.org}.
+
+\bibitem{boundary_layer_theory}
+H~Schlichting and K.~Gersten.
+\newblock {\em Boundary Layer Theory}.
+\newblock Springer, 2000.
+
+\bibitem{cfd_online_skin_friction}
+www.cfd online.com/Wiki.
+\newblock Skin friction coefficient.
+
+\end{thebibliography}

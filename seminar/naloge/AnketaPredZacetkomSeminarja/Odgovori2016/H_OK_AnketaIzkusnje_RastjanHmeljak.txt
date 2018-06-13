@@ -1,0 +1,31 @@
+A) Ali ste doslej opravili kakšno meritev v naravi?
+(opis v enem stavku)
+-Da, v okviru šolskih obveznosti. Navadno v sklopu predmetov kot so biologija in geografija, pri predmetu kot je fizika in kemija, pa samo v laboratoriju.
+FD: Kakšno meritev? Meritev česa?
+V naravi smo izmerili vlažnost zraka ob različnih šolskih deliv dneva z pomočjo higrometra. V laboratoriju pa smo merili frekvence barv z spektometrom.
+
+B) Ali znate izrisati graf iz podatkov v digitalni obliki?
+(kaj znate in s katerim orodjem v enem stavku)
+-Da
+FD: S katerim orodjem?
+Z programom Excel
+
+C) Katero elektronsko napravo uporabljate po navodilih?
+(če več, zapišite - za najzahtevnejšo - kaj znate z njo, 2 stavka)
+- Ohm meter. Merjenje upornosti na nekem delu električnega vezja.
+
+Č) Ali imate že praktične izkušnje s plovbo / kaj znate?
+(opišite v enem stavku: jadranje, veslanje, imam izpit za voditelja čolna, opravil plovbo - kot dijak na praksi - kot kadet - kot asistent - kot častnik krova ali stroja, navedite tip ladje/plovila, ...,.. / znam privezovati čoln, ...)
+- Izkušnje z plovilom imam le te, ki sem jih pridobil v 1. letniku programa navtike, pri praktičnih delih predmetov (mornarske veščine). 
+FD: Naštejte tri mornarske veščine, ki bi jih na praktičnih vajah na morju lahko zanesljivo izvajali!
+Zanesljivo bi lahko zavezal: mornarski vozel (pašnjak), vrzni vozel in privez na bitvo. Z temi vozli bi znal privezati plovilo in bokobrane na plovilu.
+
+D) Opišite posebne želje, kaj si želite delati v seminarski nalogi. 
+(največ 2 stavka)
+- /
+
+
+
+
+
+

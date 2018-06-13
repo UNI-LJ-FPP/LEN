@@ -1,0 +1,28 @@
+
+
+štirje Galileo satelito hkrati!
+http://www.insidegnss.com/node/5725
+
+
+64.	Navedite in v po enem stavku opišite vsaj pet vzrokov za napako določanja položaja z GNSS! Razložite kaj pomeni kratica PVT? Kako je pomembna za varnost plovbe? (do 10 stavkov)
+65.	Za varnost plovbe je zelo pomemben sistem COSPAS-SARSAT https://directory.eoportal.org/web/eoportal/satellite-missions/c-missions/cospas-sarsat   Opišite kakšno vlogo ima v pomorstvu (5 stavkov) in kako deluje (2 stavka).
+66.	Sistem za določanje položaja EGNOS je namenjen tudi pomorstvu http://www.galileoic.org/node/145. Opišite kakšno vlogo ima v pomorstvu (5 stavkov) in kako deluje (2 stavka).
+
+Kaj je naprava AIS-SART? Čemu je namenjena? Kateri podatki se izpišejo na zaslonu AIS sistema?
+77.	Kako pogosto se osvežujejo podatki o potovanju? Kaj je to VTMIS? Ali uporabljajo AIS in v kakšni meri?
+82.	Kakšne novosti prinaša sistem Galileo v navigacijske storitve? Katere so pomembne v pomorstvu (navedite vir informacije)?
+83.	Zakaj je potrebno, da budno spremljate naprave, ki uporabljajo podatke sprejemnika GNSS? S čim je zagotovljena integriteta navigacijskega sistema?
+84.	Kaj sestavlja EGNOS in čemu je namenjen? Kako EGNOS deluje?
+85.	Koliko decibelov pomeni tisočkratno povečanje ali zmanjšanje moči? Za koliko decibelov upade moč signala na razdalji 20.000 km? Koliko W doseže površino Zemlje, če oddajnik z 250W oddaja na frekvenci 1575,42 MHz?
+86.	Kakšne posledice so nastale 26. januarja 2016, ko so bile zemeljske ure GPS zamaknjene za 13 mikrosekund? Katera lastnost sistema je zatajila? Kako bi težave lahko hitreje zaznali?
+88.	Kakšen praktičen pomen za pomorščaka imata kratici DOP in RAIM? Kaj boste storili pri večjih in kaj pri manjših vrednostih DOP ? Kakšna obvestila dobivate glede RAIM? Kako boste ravnali ob njih?
+89.	Zakaj so za navigacijo potrebni diferencialni sistemi? Ali je SBAS diferencialni sistem? V čem se razlikuje od sistema s kratico DGPS oz. DGNSS?
+91.	V treh stavkih opišite razliko v delovanju sistemov e-Loran in eDLoran. Kakšno opremo potrebujete za uporabo omenjenih sistemov? V katerih pomorskih območjih sveta boste v letu 2017 ob primerni opremi lahko uporabljali e-Loran in kje eDLoran?
+93.	Kako so pomorščaki s pomočjo lesenega polena in vrvice z vozli ocenjevali prepluto pot? Kakšen pripomoček je danes enakovreden temu pripomočku? Kateri instrumenti in kateri podatki so še potrebni, da je navigator po uporabi loga ocenil svoj trenutni položaj?
+94.	Navedite konkretna primera dveh merilnikov hitrosti ladje z Dopplerjevim pojavom in s pitometrom in najdite podatka kakšno natančnost dosegata! Kakšne motnje pričakujete pri uporabi enega in pri uporabi drugega?
+95.	Zakaj za AHRS rečemo, da ima naprava devet prostostnih stopenj? Kako v AHRS kalibriramo triosni magnetometer, kako miniaturni triosni žiroskop in kako triosni pospeškometer? Kakšen je odnos med kotnim pospeškom in kotno hitrostjo?
+117.	Kaj je DSC? Kolikšen domet ima ta vrsta komunikacije na VHF in koliko na HF, koliko na MF?
+
+
+
+

@@ -1,0 +1,47 @@
+﻿A) Ali ste doslej opravili kakšno meritev v naravi?
+(opis v enem stavku)
+1) Iskanje napake v med samim vtikače ( ali je pod vtikač pod fazo) in električno kosilnico ( ugtovil sme da je bila napaka odprtih sponk)
+2) poskusil sem staro baterijo z volt metrom ali je vrednost napetosti baterije dovol velika. ugotovil sem, da se napetost baterije ne sklad z vrednost npetosti ki je napisana na njej in sem ugotovil da je baterija za v smeti.
+FD: Opišite eno meritev v naravi v enem stavku!
+Opravljal sem iskanje napak v tokokrogu im merjenje napetosti baterije.
+FD: Kakšen tokokrog in baterijo ste pa merili V NARAVI (zunaj)?
+Opravljal sem meritev napetosti starega akumulatorja za uporabo v vozilu.
+
+B) Ali znate izrisati graf iz podatkov v digitalni obliki?
+(kaj znate in s katerim orodjem v enem stavku)
+izmerimo več vrednosti, in vrednosti nanesemo na graf nato jih povežemo v funkcijo. ( Lahko s pomočjo računalnika ali na roke.)
+FD: Ali znate? S čim?
+Znam z uporabo programa excel.
+
+C) Katero elektronsko napravo uporabljate po navodilih?
+(če več, zapišite - za najzahtevnejšo - kaj znate z njo, 2 stavka)
+multi meter- z njo izmeriti : upornost, tok, napetost, temperaturo. S pomočjo multi metra iskanje napak v tokokrogu.
+FD: Ali je multimeter najzahtevnejša naprava, ki jo uporabljate po navodilih?
+Najzahtevnejsa naprava je oksciloskop uporabljam jo za analizo opazovanje grafa nihanja toka in napetosti v tokokrogu.
+FD: Katero napravo ste uporabljali po navodilih - do sedaj v svojem življenju?
+Multimeter je najzahtevnejša naprava za katero sem si uzel časi prebral navodila za uporabo in jo nato uporabil
+
+
+Č) Ali imate že praktične izkušnje s plovbo / kaj znate?
+(opišite v enem stavku: jadranje, veslanje, imam izpit za voditelja čolna, opravil plovbo - kot dijak na praksi - kot kadet - kot asistent - kot častnik krova ali stroja, navedite tip ladje/plovila, ...,.. / znam privezovati čoln, ...)
+ imam izpit za voditelja čolna. znam navigirati s opmočjo kart, najenostavnejša uporaba radarja. znam manevrirati čoln.
+
+D) Opišite posebne želje, kaj si želite delati v seminarski nalogi. 
+(največ 2 stavka) 
+ D) v seminarski nalogi si želim: raziskovati različne sisteme na ladji, spozati mirjenje časa na ladji. se izobraziti v delovanju različnih sistemov v navigaciji...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

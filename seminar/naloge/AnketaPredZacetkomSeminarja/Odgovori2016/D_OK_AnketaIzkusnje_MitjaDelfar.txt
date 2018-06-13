@@ -1,0 +1,31 @@
+﻿A) Ali ste doslej opravili kakšno meritev v naravi?
+(opis v enem stavku)
+A)Sem, najbolj se spomnem strokovnih ekskurzij pri geografiji, ko smo merili temperaturo, vlažnost vode in zraka ter še ph vode.
+
+B) Ali znate izrisati graf iz podatkov v digitalni obliki?
+(kaj znate in s katerim orodjem v enem stavku)
+B)Znam z microsoft word-om, pač pod instert in nato chart ter izbereš graf.
+FD: Iz priloženih podatkov čimprej narišite graf odvisnosti Acc_X (2. stolpec) od časa (1. stolpec). 
+Upoštevajte, da imate namesto podatka o času števnik stotink sekunde, vi boste pa risali čas v minutah in sicer prvih 20 minut.
+NARISAL.
+
+C) Katero elektronsko napravo uporabljate po navodilih?
+(če več, zapišite - za najzahtevnejšo - kaj znate z njo, 2 stavka)
+C)Multimeter Fluke 111 s katerim izmerimo enosmerni ali izmenični tok in napetost, z njim lahko testiramo tudi prevodnost.
+Z osciloskopom smo merili ekeftivno napetost, srednjo napetost in napetost konica dno ter obliko signala. 
+FD: Katero elektronsko napravo sami uporabljate po navodilih?
+
+Č) Ali imate že praktične izkušnje s plovbo / kaj znate?
+(opišite v enem stavku: jadranje, veslanje, imam izpit za voditelja čolna, opravil plovbo - kot dijak na praksi - kot kadet - kot asistent - kot častnik krova ali stroja, navedite tip ladje/plovila, ...,.. / znam privezovati čoln, ...)
+Č)Treniral sem veslanje v Šečovlju, vozil od očeta pasaro, kot študent poskosil voziti Slovenijo od faxa in znam privezat čoln.
+FD: Vidim, da kar nekaj samostojnih izkušenj že imate. Če nimate pooblastil, vas še ne smemo pustiti za krmilo MČ Slovenija. Ali imate izpit za voditelja čolna?
+
+D) Opišite posebne želje, kaj si želite delati v seminarski nalogi. 
+(največ 2 stavka)
+D)Želel bi, da je več praktičnega dela in meritev/raziskav, katere nato vključim v seminarski nalogi.
+
+
+
+
+
+

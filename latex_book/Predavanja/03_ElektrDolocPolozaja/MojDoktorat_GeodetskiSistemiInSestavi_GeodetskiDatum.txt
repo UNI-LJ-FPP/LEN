@@ -1,0 +1,41 @@
+Z abstrakcijo stvarnosti dobivamo prostorske podatke (tudi podatke o položaju) na objektiven način, saj v postopku pridobivanja upoštevamo modele prostora \cite{1999-Podobnikar-NatancTocn}.
+
+Ko izberemo navigacijski sistem, izberemo tudi njemu pripadajoč oz. zanj naj\-bolj \textit{naraven} geometrijski koordinatni sistem z izhodiščem, usmerjenostjo osi in enotami. Zaradi preprostejših medsebojnih transformacij se ob uporabi kombinacij navigacijskih sistemov uporabljajo enakosučni ortogonalni sistemi, ponavadi desnosučni. Lokalni geodetski sistemi so nasprotnosučni (tj. levosučni), zato so transformacijam dodane še operacije z refleksijskimi matrikami.
+
+Iz geodetske literature (na primer \cite{2003-HofmannWellenhof-Springer} ali v slovenščini \cite{StoparKuhar-GeodVest-2001}) je znano, da pojma \textit{koordinatni sistem} in \textit{koordinatni sestav} (ang. 'frame') ponazarjata razliko med teoretično definicijo koordinatnega sistema in njegovo dejansko izvedbo.
+
+Zamisel torej imenujmo koordinatni sistem ali referenčni sistem, dejansko izvedbo, na katero se rezultati meritev v resnici nanašajo, pa koordinatni sestav ali referenčni sestav. Praviloma transformacije delamo med tridimenzionalnimi sistemi, praktično pa položaje določamo v sestavih, ki so določeni glede na referenčne sestave z nabori podatkov, imenovanimi 'geodetski datumi'\footnote{V lat. je 'datum' ednina od množinske oblike 'data'.}.
+
+Mednarodna zveza geodetov uveljavlja koordinatni sistem Zemlje, imenovan ITRS in njegove izvedbe (ITRF), medtem ko GPS uporablja drug koordinatni sistem, imenovan WGS-84 in njegove izvedbe. Definiranje medsebojnih povezanosti tridimenzionalnih geometrijskih sistemov z 'geodetskim datumom' vsebuje poleg znanega rotacijskega elipsoida še sedem parametrov: tri koordinate za določitev izhodišča oz. vzporedni premik glede na izhodišče koordinatnega sistema Zemlje, tri smeri za usmerjenost oz. zasuk (rotacijo) glede na koordinatne osi koordinatnega sistema Zemlje in merilo oz. razteg glede na enoto v koordinatnem sistemu Zemlje (primerjaj \cite{2006-Stoecker-MatPrirocnik}, str. 306-313).
+
+Geodetski datum je lokalnega značaja, saj omogoča navezavo izmer (položajev) na določenem omejenem območju na svetovni geodetski sistem. V praksi so geodeti datum določali z rednimi večtedenskimi meritvami položaja ('kampanjami') z GPS hkrati v nizu izbranih točk na terenu, ki so za izbrano območje značilne. Danes izvedbe geodetskega datuma ob pomoči satelitske radionavigacije potekajo že neprekinjeno. Izvedbe so vezane na dogovorjene časovne trenutke ('epohe'), kar ne predstavlja več srednjega trenutka kampanjske izmere. Rezultati v časovnih trenutkih izvedb se navežejo na rezultate geodetskih točk na Zemlji, ki so bile izmerjene s še večjo točnostjo (interferometrija, VLBI), s čimer se torej določi nabor podatkov geodetskega datuma.
+
+Koordinatni sistem je torej definiran kot zamisel brez časovne opredelitve, medtem ko je koordinatni sestav na dogovorjen način materializiran sistem, ki velja od določenega trenutka (epohe) naprej. Sestavov, pripadajočih istemu sistemu, je lahko več, saj vsak povzema dotedanje rezultate meritev parametrov sistema (na primer meritev težnostnega polja Zemlje, njenih polosi, pospeška na ekvatorju), kar v imenih ekvatorskih sestavov označuje končnica imena sestava. časovni trenutek se kot epoha podaja v julijanskem koledarju. 
+
+Zaradi narave stvari obravnave navigacijskih nalog na Zemlji literatura (\cite{{2003-HofmannWellenhof-Springer}}, \cite{1999-FarellBarth-GPSINS}, \cite{2007-Kubrak-PhD}, \cite{StoparKuhar-GeodVest-2001}) obravnava tri oz. štiri vrste sistemov oz. sestavov. Poimenujoč horizontalno ravnino sistema, obstajajo tri skupine sestavov: ekvatorski, lokalni in sestavi premiènega telesa. Ekvatorske sestave s središčem v težišču Zemlje pa omenjena literatura podrobneje razvršča ali v astronomske ('celestialne'  oz. 'kvazi-inercialne') ali v zemeljske ('terestrične')
+%, ang. 'ECEF') sestave. Kot smo že omenili v podpoglavju \ref{Subsec_ResNavEnacbe}, bomo v disertaciji premično telo imenovali merilni instrument.
+
+Predstavili bomo torej štiri sestave, ki jih bomo v disertaciji poimenovali: 'astro\-nom\-ski', 'zemeljski', 'lokalni geodetski' in 'sestav merilnega instrumenta'. Sestavi so v nadaljnem besedilu označeni z okrajšavami: \textbf{ast}, \textbf{zem}, \textbf{lok} in \textbf{m.i.}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,2 @@
+\select@language {slovene}
+\contentsline {section}{\numberline {1}Uvod}{2}

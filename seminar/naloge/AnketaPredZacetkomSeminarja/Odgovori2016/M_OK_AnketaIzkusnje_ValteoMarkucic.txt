@@ -1,0 +1,35 @@
+﻿LEN-ODGOVORI NA VPRAŠANJA ANKETE
+
+A) Ali ste doslej opravili kakšno meritev v naravi?
+(opis v enem stavku)
+A)	V srednji šoli smo merili hitrost reke, vetra, merili vlago v zraku ter opravili razna merila v naravi z različnimi napravami.
+
+B) Ali znate izrisati graf iz podatkov v digitalni obliki?
+(kaj znate in s katerim orodjem v enem stavku)
+Znam razbrati podatke v digitalni obliki in jih uporabiti za narisat graf, narisati točke (vozlišča) in če je treba se naredi interpolacija točk, pri čemer orodje, ki ga uporabljamo je ravnilo in svinčnik.
+FD: Torej Excela ali podobnega programa ne znate uporabljati?
+V excelu sem zelo malo krat delal grafe tako, da ne vem glih najboljše.
+
+C) Katero elektronsko napravo uporabljate po navodilih?
+(če več, zapišite - za najzahtevnejšo - kaj znate z njo, 2 stavka)
+Voltmeter, Ampermeter, Multimeter, Oscilator (kazalnik frekvence). Z voltmetrom smo se naučili merjenja ečlektrične napetosti tako, da moramo voltmeter vzporedno vezati med točkami med katerimi želimo izmeriti napetost. Da merilna naprava ne bi vplivala preveč na napetost v tokokrogu moramo vedeti, da mora biti (v tem primeru) upornost voltmetra čim večja.
+FD: (oscilator je nihalo, ne kazalnik!) Zanima me katere elektronske naprave sami uporabljate po priročniku, ki je bil napravi priložen. Če nobene, napišite, da nobene.
+C) nobene.
+
+Č) Ali imate že praktične izkušnje s plovbo / kaj znate?
+(opišite v enem stavku: jadranje, veslanje, imam izpit za voditelja čolna, opravil plovbo - kot dijak na praksi - kot kadet - kot asistent - kot častnik krova ali stroja, navedite tip ladje/plovila, ...,.. / znam privezovati čoln, ...)
+Resnih praktičnih izkušenj s plovbo nimam, razen tega, da sem večkrat šel ven z manjšo barko na ribolov in sem seveda moral znati privezovati čoln ter krmariti itd,.. vendar nič preveč zahtevnega.
+
+D) Opišite posebne želje, kaj si želite delati v seminarski nalogi. 
+(največ 2 stavka)
+Zanimiva tematika za seminarsko nalogo se mi zdi Omejitve GNSS v praksi. Zdi se mi zelo pomembna tematika v pomorstvu in dobro poznavanje le te bi lahko bilo zelo praktično.
+
+
+
+
+
+
+
+
+
+

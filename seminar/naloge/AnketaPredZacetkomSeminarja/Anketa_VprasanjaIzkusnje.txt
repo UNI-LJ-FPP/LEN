@@ -1,0 +1,14 @@
+﻿A) Ali ste doslej v življenju že opravili kakšno meritev v naravi? Lahko v vsakdanjem življenju.
+(opis v enem stavku)
+
+B) Narišite graf 'Roll v odvisnosti od časa' iz podanih podatkov (https://www.dropbox.com/s/pt8qvr2sxru1dhk/00_MTiData_Ladja.txt?dl=0) z računalniškim orodjem ALI z Excelom ALI z Matlabom ALI s http://www.onlinecharttool.com/ ALI ...
+(če potrebujete pojasnila - napišite v enem stavku)
+
+C) Za katero elektronsko napravo ste prebrali navodila in jo po navodilih znate uporabljati? Lahko v vsakdanjem življenju.
+(če več, zapišite - za najzahtevnejšo - kaj znate z njo, 2 stavka)
+
+Č) Ali imate že praktične izkušnje s plovbo / kaj znate?
+(opišite v enem stavku: jadranje, veslanje, imam izpit za voditelja čolna, opravil plovbo - kot dijak na praksi - kot kadet - kot asistent - kot častnik krova ali stroja, navedite tip ladje/plovila, ...,.. / znam privezovati čoln, ...)
+
+D) Opišite posebne želje, kaj si želite delati v seminarski nalogi. (sklic: https://www.dropbox.com/s/bfz9bovr059s6vw/MozneSeminarskeTeme.txt?dl=0) 
+(največ 2 stavka)

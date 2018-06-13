@@ -1,0 +1,124 @@
+%
+\chapter{Povzetek sodobnih elektronskih navigacijskih pripomočkov}
+\label{intro} % Always give a unique label
+% use \chaptermark{}
+% to alter or adjust the chapter heading in the running head
+
+ECDIS, združitev zajemov večih senzorjev in zagotavljanje varne plovbe
+
+%RADAR overlay vs. ECDIS: https://www.linkedin.com/groups/2247966/2247966-6191161999863345153
+%=======================
+%a radar overlay feature never replaces a full radar. 
+%While the radar is a pure collision avoidance tool, radar overlay is meant to enhance the capabilities of the ECDIS. 
+%Unfortunately, there is little control in the industry as to what radar overlay should look like. You can find anything from preprocessed radar pictures (as mentioned by Jaap) to fully tune-able radar inputs for the ECDIS. 
+%Without knowing the vessel specifics, a safe rule of thumb is: radars have to be redundant, ECDIS have to be redundant, any equipment needs to carry a wheelmark (for marine use) and has to be type approved (fit for purpose) when fulfilling a primary navigational function; there are many exceptions and additions to the these ground rules, depending on: vessel size, vessel type, class, flag, trade area, etc
+%In addition, you should find out what category of vessel we are talking. Is the ECDIS primary mean of navigation where you have choise of two independent workstation (paperless) or one ECDIS and full supplement of charts for intended voyage. Remember EDIS require only input of position (GPS/DGPS) heading device and log. Doesn't need to be connected with AIS nor radar or any other device. Radar overlay is only a funcionality of ECDIS when radar input is connected. Just like chart radar when you have MFDs or input from NAVTEX on ECDIS or ... Depends what you want, just cover requirements or make integrated bridge system. Legal requirements is must, other is question of space and budget.
+%Radar Overlay is used for determining the position by alternate source to meet best navigation practices of "2 means of position fixing" method. Radar overlay as it describes is an overlay and should be briefly referred by navigator to verify the GPS positions. Most often the visual quality of data on the ENC gets degraded / cluttered when radar overlay is used. ECDIS is a chart (ENC-Electronic chart) and is not used for collision avoidance purpose, as described by Seven also. Both have separate functions. I am not aware of regulatory requirements, Fundamentally ENC is still a chart and radar is one of navigation aid to assist the navigating officer for safe navigation, except it can now be viewed on one screen. Only thing i want to say is too much information on one screen is confusing for the navigator. Hence it is better to keep navaids as independent as possible.
+%=======
+%Hi and thanks for your comments and assistant in my question. I now have a good picture and well based knowledge to assist my customer. The key is that as many of you has underlined radar is a tool for collision avoidance and that has to be the prime mission. The option with radar overlay is a enhance to the Ecdis picture in helping the navigator.
+
+%http://www.consilium.se/news/consilium-receives-first-order-its-new-web-based-remote-playback-service
+%VDR Consilium receives the first order for its new web-based Remote Playback service
+
+\section{Section Heading}
+\label{sec:1}
+% Always give a unique label
+% and use \ref{<label>} for cross-references
+% and \cite{<label>} for bibliographic references
+% use \sectionmark{}
+% to alter or adjust the section heading in the running head
+Your text goes here. Use the \LaTeX\ automatism for your citations
+\cite{monograph}.
+
+\subsection{Subsection Heading}
+\label{sec:2}
+Your text goes here.
+
+\begin{equation}
+\vec{a}\times\vec{b}=\vec{c}
+\end{equation}
+
+\subsubsection{Subsubsection Heading}
+Your text goes here. Use the \LaTeX\ automatism for cross-references as
+well as for your citations, see Sect.~\ref{sec:1}.
+
+\paragraph{Paragraph Heading} %
+Your text goes here.
+
+\subparagraph{Subparagraph Heading.} Your text goes here.%
+%
+\index{paragraph}
+% Use the \index{} command to code your index words
+%
+% For tables use
+%
+\begin{table}
+\centering
+\caption{Please write your table caption here}
+\label{tab:1}       % Give a unique label
+%
+% For LaTeX tables use
+%
+\begin{tabular}{lll}
+\hline\noalign{\smallskip}
+first & second & third  \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+number & number & number \\
+number & number & number \\
+\noalign{\smallskip}\hline
+\end{tabular}
+\end{table}
+%
+%
+% For figures use
+%
+\begin{figure}
+\centering
+% Use the relevant command for your figure-insertion program
+% to insert the figure file.
+% For example, with the option graphics use
+\includegraphics[height=4cm]{figure}
+%
+% If not, use
+%\picplace{5cm}{2cm} % Give the correct figure height and width in cm
+%
+\caption{Please write your figure caption here}
+\label{fig:1}       % Give a unique label
+\end{figure}
+%
+% For built-in environments use
+%
+\begin{theorem}
+Theorem text goes here.
+\end{theorem}
+%
+% or
+%
+\begin{lemma}
+Lemma text goes here.
+\end{lemma}
+%
+%
+% Problems or Exercises should be sorted chapterwise
+\section*{Problems}
+\addcontentsline{toc}{section}{Problems}
+%
+% Use the following environment.
+% Don't forget to label each problem;
+% the label is needed for the solutions' environment
+\begin{prob}
+\label{prob1}
+The problem\footnote{Footnote} is described here. The
+problem is described here. The problem is described here.
+\end{prob}
+
+\begin{prob}
+\label{prob2}
+\textbf{Problem Heading}\\
+(a) The first part of the problem is described here.\\
+(b) The second part of the problem is described here.
+\end{prob}
+
+
+
+%

@@ -1,0 +1,29 @@
+﻿LEN-ODGOVORI NA VPRAŠANJA ANKETE
+A) Ali ste doslej opravili kakšno meritev v naravi?
+(opis v enem stavku)
+
+V naravi še nisem opravljal nobenih meritev.
+
+B) Ali znate izrisati graf iz podatkov v digitalni obliki?
+(kaj znate in s katerim orodjem v enem stavku)
+Graf bi znal izrisati s pomočjo Excel aplikacije.
+FD: iz priloženih podatkov čimprej narišite v Excelu graf odvisnosti Roll (11. stolpec) od časa (1. stolpec). 
+Upoštevajte, da imate namesto podatka o času števnik stotink sekunde, vi boste pa risali čas v minutah. 
+Naj bo na začetku čas enak 0 namesto 2329.
+
+C) Katero elektronsko napravo uporabljate po navodilih?
+(če več, zapišite - za najzahtevnejšo - kaj znate z njo, 2 stavka)
+Ne vem za nobeno elektronsko napravo, ki bi jo uporabljal, poleg računalnika.
+FD: naš predmet se imenuje (ladijske) elektronske naprave. Ali res uporabljate od elektronskih naprav le računalnik? 
+Zanima pa me, katero elektronsko napravo uporabljate po navodilih. Če nobene, napišite, da nobene. 
+
+Č) Ali imate že praktične izkušnje s plovbo / kaj znate?
+(opišite v enem stavku: jadranje, veslanje, imam izpit za voditelja čolna, opravil plovbo - kot dijak na praksi - 
+kot kadet - kot asistent - kot častnik krova ali stroja, navedite tip ladje/plovila, ...,.. / znam privezovati čoln, ...)
+
+Nimam še praktičnih izkušenj s plovbo, znam pa privezati čoln.
+
+D) Opišite posebne želje, kaj si želite delati v seminarski nalogi. 
+(največ 2 stavka)
+
+Lahko bi naredili kakšne meritve v naravi ali praktične vaje glede na temo v seminarski nalogi. 

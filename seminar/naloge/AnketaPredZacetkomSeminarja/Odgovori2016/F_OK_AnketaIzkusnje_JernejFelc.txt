@@ -1,0 +1,40 @@
+﻿LEN-ODGOVORI NA VPRAŠANJA ANKETE
+A) Ali ste doslej opravili kakšno meritev v naravi?
+(opis v enem stavku)
+Opravljal sem meritve z multimetrom pri vgradnji avtoradia.
+FD: V naravi je mišljeno na odprtem prostoru. Ali ste jih že opravljali in kakšne vrste?
+Opravljal sem meritve dolžine z laserjem.
+
+B) Ali znate izrisati graf iz podatkov v digitalni obliki?
+(kaj znate in s katerim orodjem v enem stavku)
+Znam izrisati graf pri tem pa uporabljam različne aplikacije.
+FD: S katerimi aplikacijami oz. programskimi orodji?
+ http://www.onlinecharttool.com/
+FD: prosim narišite z vašim orodjem graf odvisnosti Gyr_X od časa in mi ga pošljite v oblikah .pdf in .jpg. Prva vrstica predstavlja vrednosti v trenutku 0, vsaka nadaljnja vrstica vrednosti 0,01s kasneje.
+Graf:
+narišite graf Roll vsaj za prvih 20 minut. (stotinke preračunajte v sekunde, te pa v minute)
+1. določite koliko vzorcev (vrstic) morate vključiti
+2. izberite prava stolpca za vodoravno (čas v minutah) in navpično os (Roll v stopinjah) 
+3. narišite
+4. pošljite
+NARISAL.
+
+C) Katero elektronsko napravo uporabljate po navodilih?
+(če več, zapišite - za najzahtevnejšo - kaj znate z njo, 2 stavka)
+Uporabljam multimeter. Z njim pa merim različne vrednosti.
+FD: Ali je doslej najzahtevnejša naprava, ki ste jo po navodilih uporabljali, v vašem življenju multimeter?
+Ne vem na kakšne naprave ciljate, vse ali samo take v zvezi z predmetom?
+FD: Vse - navedite najzahtevnejšo.
+C) Vprašanje o napravah:
+Zanima me, za katero napravo ste resnično prebrali navodila, da ste jo uporabili. Če jih niste za nobeno, to napišite.
+
+Č) Ali imate že praktične izkušnje s plovbo / kaj znate?
+(opišite v enem stavku: jadranje, veslanje, imam izpit za voditelja čolna, opravil plovbo - kot dijak na praksi - kot kadet - kot asistent - kot častnik krova ali stroja, navedite tip ladje/plovila, ...,.. / znam privezovati čoln, ...)
+Imam izkušnje na področju jadranja in imam izpit za čoln.
+FD: Imate torej izpit za voditelja čolna?
+Da.
+
+D) Opišite posebne želje, kaj si želite delati v seminarski nalogi. 
+(največ 2 stavka)
+Želim si pridobiti znanja o elektronskih napravah in napeljavi na jadrnici s katerim bo moja plovba bolj varna.
+
